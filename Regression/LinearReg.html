@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Regression Visualization</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        .panel {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+            width: 220px;
+            text-align: center;
+        }
+
+        .chart-container {
+            flex: 1;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        canvas {
+            width: 100% !important;
+            height: auto !important;
+            border: 1px solid black;
+            background-color: #f9f9f9;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 8px 15px;
+            margin-top: 10px;
+            border: none;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Linear Regression</h1>
+
+    <div class="container">
+        <!-- Left Panel (Slope & Bias Controls) -->
+        <div class="panel">
+            <h3>Train Model</h3>
+            <label>Slope (m):</label>
+            <input type="range" id="slope" min="-5" max="5" step="0.1" value="1" oninput="updateEquation()">
+            <label>Intercept (b):</label>
+            <input type="range" id="intercept" min="-100" max="100" step="1" value="0" oninput="updateEquation()">
+            <button onclick="trainModel()">Fit/Train</button>
+            <button onclick="clearCanvas()">Clear</button>
+        </div>
+
+        <!-- Center (Plot) -->
+        <div class="chart-container">
+            <canvas id="regressionChart"></canvas>
+        </div>
+
+        <!-- Right Panel (Prediction & Loss) -->
+        <div class="panel">
+            <h3>Prediction</h3>
+            <label>Enter X value:</label>
+            <input type="number" id="xInput" step="0.1">
+            <button onclick="predictY()">Predict Y</button>
+            <p id="prediction">Equation: y = mx + b</p>
+            <p id="predictedValue">Predicted Y: N/A</p>
+
+            <h3>Loss Calculator</h3>
+            <p id="lossOutput">MSE Loss: N/A</p>
+            <p id="rSquaredOutput">R² Score: N/A</p>
+        </div>
+    </div>
+
+    <script>
+        let points = [];
+        let m = 1, b = 0;
+
+        const ctx = document.getElementById("regressionChart").getContext("2d");
+        const regressionChart = new Chart(ctx, {
+            type: "scatter",
+            data: {
+                datasets: [{
+                    label: "Data Points",
+                    data: [],
+                    backgroundColor: "red"
+                }, {
+                    label: "Regression Line",
+                    type: "line",
+                    data: [],
+                    borderColor: "blue",
+                    borderWidth: 2,
+                    fill: false
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: { beginAtZero: true },
+                    y: { beginAtZero: true }
+                }
+            }
+        });
+
+        document.getElementById("regressionChart").onclick = (event) => {
+            const chartArea = regressionChart.chartArea;
+            const x = Math.round(regressionChart.scales.x.getValueForPixel(event.offsetX));
+            const y = Math.round(regressionChart.scales.y.getValueForPixel(event.offsetY));
+            if (x >= 0 && y >= 0) {
+                points.push({ x, y });
+                regressionChart.data.datasets[0].data = points;
+                regressionChart.update();
+            }
+        };
+
+        function updateEquation() {
+            m = parseFloat(document.getElementById("slope").value);
+            b = parseFloat(document.getElementById("intercept").value);
+            updateRegressionLine();
+            updateLoss();
+        }
+
+        function updateRegressionLine() {
+            regressionChart.data.datasets[1].data = [{ x: 0, y: b }, { x: 100, y: m * 100 + b }];
+            regressionChart.update();
+        }
+
+        function predictY() {
+            const x = parseFloat(document.getElementById("xInput").value);
+            const y = m * x + b;
+            document.getElementById("prediction").innerText = `Equation: y = ${m.toFixed(2)}x + ${b.toFixed(2)}`;
+            document.getElementById("predictedValue").innerText = `Predicted Y: ${y.toFixed(2)}`;
+        }
+
+        function trainModel() {
+            let sumX = 0, sumY = 0, sumXY = 0, sumXX = 0;
+            let n = points.length;
+            if (n === 0) return;
+            points.forEach(({ x, y }) => {
+                sumX += x;
+                sumY += y;
+                sumXY += x * y;
+                sumXX += x * x;
+            });
+            m = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
+            b = (sumY - m * sumX) / n;
+            document.getElementById("slope").value = m;
+            document.getElementById("intercept").value = b;
+            updateEquation();
+        }
+
+        function updateLoss() {
+            let mse = 0;
+            let totalSS = 0;
+            let meanY = points.reduce((sum, p) => sum + p.y, 0) / points.length;
+            let n = points.length;
+            if (n === 0) return;
+            
+            points.forEach(({ x, y }) => {
+                let yPred = m * x + b;
+                mse += (y - yPred) ** 2;
+                totalSS += (y - meanY) ** 2;
+            });
+            mse /= n;
+            let rSquared = 1 - (mse / (totalSS / n));
+            
+            document.getElementById("lossOutput").innerText = `MSE Loss: ${mse.toFixed(2)}`;
+            document.getElementById("rSquaredOutput").innerText = `R² Score: ${rSquared.toFixed(2)}`;
+        }
+
+        function clearCanvas() {
+            points = [];
+            regressionChart.data.datasets[0].data = [];
+            regressionChart.update();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Tree with Gini Impurity</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+        }
+        /* Data Table */
+        .data-table {
+            border-collapse: collapse;
+            width: 30%;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px gray;
+        }
+        .data-table th, .data-table td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .data-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        /* Decision Tree */
+        .tree-container {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .node {
+            display: inline-block;
+            padding: 15px 25px;
+            margin: 10px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            position: relative;
+            opacity: 1;
+            transition: background-color 0.5s ease-in-out;
+        }
+        .decision-node { background-color: #4CAF50; color: white; border: 2px solid #2e7d32; }
+        .leaf-node { background-color: #ff9800; color: white; border: 2px solid #e65100; }
+        .highlight { background-color: yellow !important; color: black !important; }
+        .line { width: 2px; height: 40px; background-color: black; margin: auto; }
+
+        /* Legend & Input */
+        .right-panel {
+            width: 25%;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 2px 2px 10px gray;
+            text-align: left;
+        }
+        .legend-box {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            margin-right: 10px;
+            border: 1px solid black;
+        }
+        .decision-box { background-color: #4CAF50; }
+        .leaf-box { background-color: #ff9800; }
+
+        /* Input Panel */
+        .input-panel { margin-top: 20px; padding: 15px; border-top: 2px solid #ccc; }
+        .input-panel input {
+            width: 80%; padding: 8px; margin: 5px 0; border: 1px solid #ccc; border-radius: 5px;
+        }
+        .input-panel button {
+            width: 100%; padding: 10px; background-color: #007BFF; color: white; border: none;
+            cursor: pointer; margin-top: 10px;
+        }
+        .result { font-size: 18px; font-weight: bold; color: #333; margin-top: 10px; }
+        .gini { font-size: 12px; font-weight: bold; color: black; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Data Table (Left) -->
+    <table class="data-table">
+        <tr>
+            <th>Age</th><th>Income</th><th>Buys Sports Car?</th>
+        </tr>
+        <tr><td>25</td><td>30k</td><td>No</td></tr>
+        <tr><td>35</td><td>70k</td><td>Yes</td></tr>
+        <tr><td>28</td><td>55k</td><td>Yes</td></tr>
+        <tr><td>40</td><td>45k</td><td>Yes</td></tr>
+        <tr><td>22</td><td>25k</td><td>No</td></tr>
+        <tr><td>55</td><td>90k</td><td>No</td></tr>
+    </table>
+
+    <!-- Decision Tree -->
+    <div class="tree-container">
+        <h3>Decision Tree with Gini Impurity</h3>
+
+        <div id="root" class="node decision-node">
+            Age ≤ 50 <br> <span class="gini">Gini: 0.48</span>
+        </div>
+        <div class="line"></div>
+
+        <div style="display: flex; justify-content: center; gap: 50px;">
+            <!-- Left Child (Young Age) -->
+            <div>
+                <div id="young" class="node decision-node">
+                    Income ≤ 50k <br> <span class="gini">Gini: 0.32</span>
+                </div>
+                <div class="line"></div>
+                <div style="display: flex; justify-content: center; gap: 20px;">
+                    <div id="young-no" class="node leaf-node">No ❌ (Leaf)</div>
+                    <div id="young-yes" class="node leaf-node">Yes ✅ (Leaf)</div>
+                </div>
+            </div>
+
+            <!-- Right Child (Old Age - Direct Leaf Node) -->
+            <div>
+                <div id="old-no" class="node leaf-node">No ❌ (Leaf) <br> <span class="gini">Gini: 0.0</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Legend & User Input -->
+    <div class="right-panel">
+        <h3>Legend</h3>
+        <p><span class="legend-box decision-box"></span> Decision Node</p>
+        <p><span class="legend-box leaf-box"></span> Leaf Node</p>
+
+        <!-- User Input -->
+        <div class="input-panel">
+            <h3>Classify Input</h3>
+            <label>Age:</label>
+            <input type="number" id="age" placeholder="Enter Age">
+            <label>Income:</label>
+            <input type="number" id="income" placeholder="Enter Income (k)">
+            <button onclick="classify()">Classify</button>
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function classify() {
+        let age = parseInt(document.getElementById("age").value);
+        let income = parseInt(document.getElementById("income").value);
+        let result = document.getElementById("result");
+
+        // Reset highlights
+        document.querySelectorAll(".node").forEach(node => node.classList.remove("highlight"));
+
+        if (isNaN(age) || isNaN(income)) {
+            result.innerHTML = "Please enter valid numbers!";
+            return;
+        }
+
+        // Decision Tree Logic
+        if (age > 50) {
+            document.getElementById("root").classList.add("highlight");
+            document.getElementById("old-no").classList.add("highlight");
+            result.innerHTML = "Classification: ❌ No (Old Age Rule)";
+        } else {
+            document.getElementById("root").classList.add("highlight");
+            document.getElementById("young").classList.add("highlight");
+
+            if (income <= 50) {
+                document.getElementById("young-no").classList.add("highlight");
+                result.innerHTML = "Classification: ❌ No";
+            } else {
+                document.getElementById("young-yes").classList.add("highlight");
+                result.innerHTML = "Classification: ✅ Yes";
+            }
+        }
+    }
+</script>
+
+</body>
+</html>

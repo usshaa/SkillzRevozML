@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Tree Voting & Bagging Prediction</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .left, .right {
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .left {
+            flex: 1 1 300px;
+        }
+
+        .right {
+            flex: 1 1 300px;
+            text-align: center;
+        }
+
+        .center {
+            flex: 2 1 100%;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            gap: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .tree-block {
+            width: 100%;
+            max-width: 200px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: lightgray;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .tree-title {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .tree-plot img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .input-container {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .vote-box {
+            display: inline-block;
+            padding: 10px;
+            margin: 10px;
+            width: 60px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .yes-vote {
+            background-color: lightgreen;
+        }
+
+        .no-vote {
+            background-color: lightcoral;
+        }
+
+        #finalResult {
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        #baggedOutput {
+            font-size: 20px;
+            padding: 10px;
+            margin-top: 15px;
+            background: lightblue;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        #individualResults {
+            margin-top: 20px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .left, .right, .center {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .center {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .tree-block {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align: center;">Car Purchase Prediction</h2>
+
+    <div class="container">
+        <!-- Center: Decision Tree Visualization -->
+        <div class="center">
+            <h3>🌳 Random Forest</h3>
+
+            <!-- Tree Blocks -->
+            <div class="tree-block" id="tree1">
+                <div class="tree-title">Tree 1</div>
+                <div class="tree-plot">
+                    <img src="img/tree1_plot.png" alt="Tree 1 Plot">
+                </div>
+                <div id="tree1Prediction" class="tree-prediction"></div>
+            </div>
+            <div class="tree-block" id="tree2">
+                <div class="tree-title">Tree 2</div>
+                <div class="tree-plot">
+                    <img src="img/tree2_plot.png" alt="Tree 2 Plot">
+                </div>
+                <div id="tree2Prediction" class="tree-prediction"></div>
+            </div>
+            <div class="tree-block" id="tree3">
+                <div class="tree-title">Tree 3</div>
+                <div class="tree-plot">
+                    <img src="img/tree3_plot.png" alt="Tree 3 Plot">
+                </div>
+                <div id="tree3Prediction" class="tree-prediction"></div>
+            </div>
+            <div class="tree-block" id="tree4">
+                <div class="tree-title">Tree 4</div>
+                <div class="tree-plot">
+                    <img src="img/tree4_plot.png" alt="Tree 4 Plot">
+                </div>
+                <div id="tree4Prediction" class="tree-prediction"></div>
+            </div>
+            <div class="tree-block" id="tree5">
+                <div class="tree-title">Tree 5</div>
+                <div class="tree-plot">
+                    <img src="img/tree5_plot.png" alt="Tree 5 Plot">
+                </div>
+                <div id="tree5Prediction" class="tree-prediction"></div>
+            </div>
+        </div>
+
+        <!-- Left: Data Table -->
+        <div class="left">
+            <h3>📊 Sample Data</h3>
+            <table>
+                <tr>
+                    <th>Age</th>
+                    <th>Income</th>
+                    <th>Buys Car</th>
+                </tr>
+                <tr><td>22</td><td>25,000</td><td>No</td></tr>
+                <tr><td>28</td><td>45,000</td><td>Yes</td></tr>
+                <tr><td>45</td><td>70,000</td><td>Yes</td></tr>
+                <tr><td>52</td><td>90,000</td><td>No</td></tr>
+                <tr><td>65</td><td>120,000</td><td>No</td></tr>
+                <tr><td>30</td><td>50,000</td><td>Yes</td></tr>
+                <tr><td>35</td><td>65,000</td><td>Yes</td></tr>
+                <tr><td>25</td><td>30,000</td><td>Yes</td></tr>
+                <tr><td>60</td><td>95,000</td><td>No</td></tr>
+                <tr><td>40</td><td>75,000</td><td>Yes</td></tr>
+            </table>
+        </div>
+
+        <!-- Right: Input Fields Above Prediction -->
+        <div class="right">
+            <h3>🔮 Make a Prediction</h3>
+            <div class="input-container">
+                <label for="ageInput">Age:</label>
+                <input type="number" id="ageInput" min="18" max="100" required>
+                
+                <label for="incomeInput">Income ($):</label>
+                <input type="number" id="incomeInput" min="0" required>
+
+                <button onclick="predictCarPurchase()">Predict</button>
+            </div>
+
+            <h3>Final Prediction</h3>
+            <div id="finalPrediction">Please enter your details above and click "Predict"</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <h3>🗳️ Voting Results</h3>
+            <div id="individualResults">
+                <!-- Individual tree predictions will be inserted here -->
+            </div>
+        </div>
+        <div class="right">
+            <h3>🛍️ Majority Voting Outcome</h3>
+            <div id="baggedOutput">Majority prediction will appear here.</div>
+        </div>
+    </div>
+
+    <script>
+        function predictCarPurchase() {
+            let age = parseInt(document.getElementById('ageInput').value);
+            let income = parseInt(document.getElementById('incomeInput').value);
+            
+            if (isNaN(age) || isNaN(income)) {
+                alert("Please enter valid inputs for Age and Income.");
+                return;
+            }
+
+            // Mock predictions from 5 individual trees
+            let predictions = [];
+            
+            for (let i = 1; i <= 5; i++) {
+                let prediction;
+                
+                // Tree predictions based on the conditions
+                if (i === 1 || i === 2) {
+                    prediction = (age <= 45 && income >= 30000) ? "Yes" : "No";
+                } else if (i === 3) {
+                    // Introduce randomness for Tree 3
+                    prediction = Math.random() < 0.5 ? "Yes" : "No";
+                } else if (i === 4) {
+                    // Tree 4 has incorrect prediction 50% of the time
+                    prediction = (Math.random() < 0.5) ? "Yes" : "No"; 
+                } else {
+                    prediction = (age <= 45 && income >= 30000) ? "Yes" : "No";
+                }
+
+                predictions.push(prediction);
+                document.getElementById(`tree${i}Prediction`).innerText = `Prediction: ${prediction}`;
+            }
+
+            // Majority vote (bagging)
+            let majorityVote = predictions.filter(p => p === "Yes").length > 2 ? "Yes" : "No";
+            document.getElementById('finalPrediction').innerText = `Majority Prediction: ${majorityVote}`;
+            document.getElementById('baggedOutput').innerText = `Bagged Prediction: ${majorityVote}`;
+        }
+    </script>
+</body>
+</html>

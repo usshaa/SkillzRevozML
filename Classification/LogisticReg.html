@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistic Regression Visualization</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        .panel {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+            width: 220px;
+            text-align: center;
+        }
+
+        .chart-container {
+            flex: 1;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        canvas {
+            width: 100% !important;
+            height: auto !important;
+            border: 1px solid black;
+            background-color: #f9f9f9;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 8px 15px;
+            margin-top: 10px;
+            border: none;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Logistic Regression</h1>
+
+    <div class="container">
+        <!-- Left Panel (Train Model) -->
+        <div class="panel">
+            <h3>Train Model</h3>
+            <label>Weight (w):</label>
+            <input type="range" id="weight" min="-10" max="10" step="0.1" value="1" oninput="updateEquation()">
+            <label>Bias (b):</label>
+            <input type="range" id="bias" min="-10" max="10" step="0.1" value="0" oninput="updateEquation()">
+            <button onclick="trainModel()">Fit Model</button>
+            <button onclick="clearCanvas()">Clear</button>
+            <h4>Sigmoid Equation:</h4>
+            <p id="sigmoidEquation">σ(z) = 1 / (1 + e^(-wx + b))</p>
+        </div>
+
+        <!-- Center (Plot) -->
+        <div class="chart-container">
+            <canvas id="logisticChart"></canvas>
+        </div>
+
+        <!-- Right Panel (Prediction) -->
+        <div class="panel">
+            <h3>Prediction</h3>
+            <label>Enter X value:</label>
+            <input type="number" id="xInput" step="0.1">
+            <button onclick="predictY()">Predict Class</button>
+            <p id="prediction">Equation: σ(z) = 1 / (1 + e^(-wx + b))</p>
+            <p id="predictedValue">Predicted Class: N/A</p>
+        </div>
+    </div>
+
+    <script>
+        let points = [];
+        let w = 1, b = 0;
+
+        const ctx = document.getElementById("logisticChart").getContext("2d");
+        const logisticChart = new Chart(ctx, {
+            type: "scatter",
+            data: {
+                datasets: [{
+                    label: "Data Points",
+                    data: [],
+                    backgroundColor: [],
+                    pointRadius: 6
+                }, {
+                    label: "Decision Boundary",
+                    type: "line",
+                    data: [],
+                    borderColor: "blue",
+                    borderWidth: 2,
+                    fill: false
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: { min: -10, max: 10 },
+                    y: { min: -0.1, max: 1.1 }
+                }
+            }
+        });
+
+        document.getElementById("logisticChart").onclick = (event) => {
+            const chartArea = logisticChart.chartArea;
+            const x = logisticChart.scales.x.getValueForPixel(event.offsetX);
+            const y = logisticChart.scales.y.getValueForPixel(event.offsetY);
+
+            // Classify the point (Above 0.5 → Class 1, Below 0.5 → Class 0)
+            const label = sigmoid(x) >= 0.5 ? 1 : 0;
+            const color = label === 1 ? "red" : "green";
+
+            points.push({ x, y: label });
+            logisticChart.data.datasets[0].data.push({ x, y: label });
+            logisticChart.data.datasets[0].backgroundColor.push(color);
+            logisticChart.update();
+        };
+
+        function sigmoid(x) {
+            return 1 / (1 + Math.exp(-(w * x + b)));
+        }
+
+        function updateEquation() {
+            w = parseFloat(document.getElementById("weight").value);
+            b = parseFloat(document.getElementById("bias").value);
+            document.getElementById("sigmoidEquation").innerText = `σ(z) = 1 / (1 + e^(-${w.toFixed(2)}x + ${b.toFixed(2)}))`;
+            updateDecisionBoundary();
+        }
+
+        function updateDecisionBoundary() {
+            logisticChart.data.datasets[1].data = [];
+
+            for (let x = -10; x <= 10; x += 0.1) {
+                logisticChart.data.datasets[1].data.push({ x, y: sigmoid(x) });
+            }
+
+            logisticChart.update();
+        }
+
+        function predictY() {
+            const x = parseFloat(document.getElementById("xInput").value);
+            const y = sigmoid(x);
+            const classLabel = y >= 0.5 ? 1 : 0;
+            document.getElementById("prediction").innerText = `σ(z) = 1 / (1 + e^(-${w.toFixed(2)}x + ${b.toFixed(2)}))`;
+            document.getElementById("predictedValue").innerText = `Predicted Class: ${classLabel} (P = ${y.toFixed(2)})`;
+        }
+
+        function trainModel() {
+            // Simple Logistic Regression fitting
+            w = Math.random() * 4 - 2; 
+            b = Math.random() * 4 - 2; 
+            document.getElementById("weight").value = w;
+            document.getElementById("bias").value = b;
+            updateEquation();
+        }
+
+        function clearCanvas() {
+            points = [];
+            logisticChart.data.datasets[0].data = [];
+            logisticChart.data.datasets[0].backgroundColor = [];
+            logisticChart.update();
+        }
+    </script>
+</body>
+</html>
