@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNN Classification Simulation</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        svg {
+            border: 2px solid #333;
+            background: white;
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .controls {
+            margin-top: 15px;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        button {
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s ease;
+            font-size: 14px;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        .btn-red {
+            background-color: red;
+            color: white;
+        }
+
+        .btn-blue {
+            background-color: blue;
+            color: white;
+        }
+
+        .btn-action {
+            background-color: #333;
+            color: white;
+        }
+
+        input {
+            padding: 7px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            text-align: center;
+            width: 60px;
+        }
+
+        @media (max-width: 600px) {
+            .controls {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2 style="color: #333;">KNN Classification Simulation</h2>
+    <div class="container">
+        <svg width="500" height="500"></svg>
+        <div class="controls">
+            <div>
+                <label>Choose Class:</label>
+                <button class="btn-red" onclick="setClass('red')">Class 1</button>
+                <button class="btn-blue" onclick="setClass('blue')">Class 2</button>
+            </div>
+            
+            <div>
+                <label for="kValue">Neighbors (K):</label>
+                <input type="number" id="kValue" value="3" min="1" max="10" onchange="updateVisualization()">
+            </div>
+
+            <div>
+                <label>Classify New Point:</label>
+                X: <input type="number" id="newX" step="5" value="250"> 
+                Y: <input type="number" id="newY" step="5" value="250"> 
+                <button class="btn-action" onclick="classifyPoint()">Classify</button>
+            </div>
+
+            <div>
+                <button class="btn-action" onclick="clearCanvas()">Clear</button>
+                <button class="btn-action" onclick="undoLastPoint()">Undo</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const svg = d3.select("svg");
+        let data = [];
+        let k = 3;
+        let selectedClass = "red";
+
+        function setClass(color) {
+            selectedClass = color;
+        }
+
+        svg.on("click", function(event) {
+            const coords = d3.pointer(event);
+            data.push({ x: coords[0], y: coords[1], color: selectedClass });
+            updateVisualization();
+        });
+
+        function updateVisualization() {
+            k = +document.getElementById("kValue").value;
+            svg.selectAll("*").remove();
+
+            // Draw grid lines
+            for (let i = 50; i < 500; i += 50) {
+                svg.append("line")
+                    .attr("x1", i)
+                    .attr("y1", 0)
+                    .attr("x2", i)
+                    .attr("y2", 500)
+                    .attr("stroke", "lightgray")
+                    .attr("stroke-dasharray", "5,5");
+                
+                svg.append("line")
+                    .attr("x1", 0)
+                    .attr("y1", i)
+                    .attr("x2", 500)
+                    .attr("y2", i)
+                    .attr("stroke", "lightgray")
+                    .attr("stroke-dasharray", "5,5");
+            }
+
+            // Removed the inner bold axis lines
+
+            svg.selectAll("circle")
+                .data(data)
+                .enter()
+                .append("circle")
+                .attr("cx", d => d.x)
+                .attr("cy", d => d.y)
+                .attr("r", 6)
+                .attr("fill", d => d.color)
+                .attr("stroke", "black")
+                .attr("stroke-width", 1);
+        }
+
+        function findKNearest(point, k) {
+            return data
+                .map(p => ({ ...p, distance: euclideanDistance(point, p) }))
+                .sort((a, b) => a.distance - b.distance)
+                .slice(0, k);
+        }
+
+        function euclideanDistance(a, b) {
+            return Math.sqrt((a.x - b.x) ** 2 + (a.y - b.y) ** 2).toFixed(2);
+        }
+
+        function classifyPoint() {
+            let newX = +document.getElementById("newX").value;
+            let newY = +document.getElementById("newY").value;
+            let newPoint = { x: newX, y: newY };
+
+            let neighbors = findKNearest(newPoint, k);
+            let redCount = neighbors.filter(n => n.color === "red").length;
+            let blueCount = neighbors.filter(n => n.color === "blue").length;
+            newPoint.color = redCount > blueCount ? "red" : "blue";
+
+            svg.append("circle")
+                .attr("cx", newPoint.x)
+                .attr("cy", newPoint.y)
+                .attr("r", 8)
+                .attr("fill", newPoint.color)
+                .attr("stroke", "black")
+                .attr("stroke-width", 2);
+
+            neighbors.forEach(neighbor => {
+                svg.append("line")
+                    .attr("x1", newPoint.x)
+                    .attr("y1", newPoint.y)
+                    .attr("x2", neighbor.x)
+                    .attr("y2", neighbor.y)
+                    .attr("stroke", "black")
+                    .attr("stroke-width", 1.5);
+
+                svg.append("text")
+                    .attr("x", (newPoint.x + neighbor.x) / 2)
+                    .attr("y", (newPoint.y + neighbor.y) / 2)
+                    .text(neighbor.distance)
+                    .attr("fill", "black")
+                    .attr("font-size", "12px")
+                    .attr("text-anchor", "middle");
+            });
+        }
+
+        function clearCanvas() {
+            data = [];
+            svg.selectAll("*").remove();
+        }
+
+        function undoLastPoint() {
+            if (data.length > 0) {
+                data.pop();
+                updateVisualization();
+            }
+        }
+    </script>
+</body>
+</html>
