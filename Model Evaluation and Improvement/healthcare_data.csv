@@ -1,0 +1,1001 @@
+patient_id,symptoms,diagnosis
+c68191c1-ddbd-4efd-b9a7-39f3154df19d,"headache, diarrhea",food_poisoning
+7ed48d1d-a4a8-4c28-9bf9-21195db0476c,"cough, fatigue",common_cold
+fc8ba0c6-cab2-4878-bc1b-deabfaeed554,diarrhea,flu
+e83ae2d4-f901-4f83-9342-3ea8bbac3324,"fatigue, nausea, headache, fever",migraine
+bbc52eb1-a7f0-440e-b4d2-7468053c08a5,"diarrhea, fever",flu
+5797b57e-798c-43a4-86ee-ca32e3d32515,"headache, nausea",flu
+f15909a6-f0eb-430e-bf8d-1825d3c21114,"nausea, diarrhea, fatigue",common_cold
+4b55c688-11e7-4608-b8bd-006ab44574e4,cough,food_poisoning
+5eaba778-e977-4e3b-bfd7-23ed113bf8d7,"fever, diarrhea, fatigue",migraine
+890b7dfd-059d-4415-8cff-8e2ac2fa67d6,"cough, headache",common_cold
+f2c423da-7a8f-41d6-88d3-d865dd5d66c3,"nausea, cough",flu
+8d375fa2-c985-40a6-aa45-bb6571ebc53a,"headache, fatigue, cough, diarrhea",flu
+307670a2-f090-431a-a58d-29e099b66ab9,diarrhea,flu
+6a375e79-5272-4240-8cdc-ca7c58df48c3,"nausea, headache, diarrhea, fatigue",food_poisoning
+f870d60d-0b89-47a7-8efc-7ef1877db11c,"diarrhea, fever",migraine
+c4fee8f4-a664-404c-8ee4-df965949683a,"fever, cough, fatigue",common_cold
+6883c887-28a6-434f-a34d-e89d961f59cc,"fatigue, nausea",flu
+ab04bb8a-debc-4ec2-b306-aa52f629e1a4,"diarrhea, sore_throat, fatigue, headache",migraine
+7191d96f-f3b1-4ebe-942b-30260ba2767c,"headache, nausea, fever, cough",migraine
+8716a51e-a48a-4e74-aef0-74fba16725ac,headache,flu
+355a1a0a-3f4b-415d-891f-5014f9959d35,"nausea, sore_throat, fatigue, fever",food_poisoning
+1b313b97-f468-4ce2-961b-07127db1ae89,"nausea, headache, cough, sore_throat",food_poisoning
+a3bff6dd-c685-4ba8-9032-730e2ca17d96,"headache, nausea",migraine
+9fe8f09f-a962-4fb5-8f89-5be4e9bbabeb,"diarrhea, nausea",flu
+44a589ee-8315-4202-ad0b-772e608d636b,"fever, headache",migraine
+d7787e39-ea2b-41d8-8b21-d06a9b1953fd,headache,food_poisoning
+a79b16d5-22e8-48ed-a4c6-83ed530fc85f,"sore_throat, headache, nausea, diarrhea",food_poisoning
+dd405e54-738b-40aa-b213-ec6f2bd7dbef,"diarrhea, fatigue",food_poisoning
+d2f3ed6f-6246-4fa4-80d7-764cad4e9b4f,"diarrhea, fatigue, sore_throat, fever",common_cold
+19fe4929-d064-4225-b29f-314b04b3e4f6,nausea,flu
+a3d9f3a2-f442-40d8-a66d-6ac25ad4a85a,"fever, nausea, fatigue, sore_throat",food_poisoning
+a597f00e-ae3a-4109-aae3-78d3c7b3075e,"sore_throat, cough, nausea, headache",flu
+c963a126-5e85-4dbb-81f9-7f0d6c34bd53,sore_throat,common_cold
+c4155342-bd31-4086-abe6-c48ace368b22,"diarrhea, cough, sore_throat",flu
+c18d56bc-7d95-4b57-89a4-c318dee54116,"cough, fatigue, headache, fever",common_cold
+bc8a3951-8543-40b0-8a48-e74e6c0b10b1,"nausea, fatigue",food_poisoning
+cf719223-98c7-456e-83cd-853ef98ec028,fatigue,common_cold
+da131dbe-d2c6-47b8-ade4-a6f1f24848f4,"diarrhea, sore_throat, fatigue, headache",common_cold
+9400c94d-6b66-4702-a2c1-7934ace86389,"headache, cough",flu
+7b06ab32-b48d-48b9-9903-1a9e1489a041,"headache, nausea, diarrhea, sore_throat",flu
+62b7607b-1737-4c7b-86eb-55043af53201,"cough, fatigue, fever, nausea",migraine
+cc532dd7-b770-4e37-b3a7-2f342f2e51d3,cough,migraine
+5f47b5e6-0c5b-4d92-ad57-bf7c34ca32c7,sore_throat,common_cold
+a3c32f8d-ae48-4354-a513-c1820bc66fde,"sore_throat, cough, fatigue",migraine
+f3af8c87-caec-43cc-a35d-16b769b49bff,"headache, sore_throat, diarrhea, fever",flu
+afe2da7e-708c-4f79-b0cf-6f1783c040c6,"sore_throat, fatigue, cough",common_cold
+c8df422d-8f9c-4c30-96d0-77c047d2bc6d,"fever, cough, nausea, diarrhea",flu
+6c54f7d0-afe3-4d8a-8227-726295c56ce7,"diarrhea, fatigue, fever",flu
+43339553-452e-429e-912c-29c69ec41567,"nausea, headache",migraine
+a0f94841-3d0a-4e34-94fa-27aeb7c57236,diarrhea,flu
+6dc67347-1e27-40ac-9af0-de005f370611,"fever, nausea, sore_throat",flu
+63398f7e-f66b-4a32-ae81-b1ad460243f7,headache,common_cold
+c4e7e786-84ef-4aa9-b73c-0d1ffcd3bd55,"cough, nausea, fever, fatigue",flu
+c14f4dac-d412-474d-8ee9-6a85ba0d8e01,"nausea, diarrhea, headache, cough",food_poisoning
+c6cd4e09-e0df-4bfc-993b-9136900fc0c0,"cough, sore_throat, nausea, diarrhea",common_cold
+96b7f3dd-5aa1-48c5-bba8-8aaadff8722a,"sore_throat, cough, fatigue",common_cold
+e1246cd2-8eb6-4710-a29b-ce93a1c515f1,fatigue,migraine
+962173fa-9dc9-4401-841e-0cffa00efa9f,cough,common_cold
+aa860b91-ba1b-4f6d-b2f1-c674f3eefcc6,"diarrhea, fatigue, cough",migraine
+ae9f185a-ddee-4526-a5f8-14598fddda5d,"nausea, diarrhea",flu
+311a551b-79ed-4a47-9a58-9fdf69022988,cough,food_poisoning
+7b02f0d2-6bf0-4b94-8e85-0d7fe9dd4ff9,"fatigue, diarrhea",migraine
+65de2594-8b4c-4636-b076-c918a5752e0c,"headache, fatigue",flu
+d029e690-686d-40fa-985e-23695c5804e3,"headache, sore_throat, fever, nausea",food_poisoning
+ab837756-0834-44e3-9c3a-3c5e67beabcc,"nausea, sore_throat, fever",common_cold
+842f9978-5aae-4412-96bc-ca6d1fbec560,"fatigue, sore_throat, cough, nausea",flu
+51aa8bad-321c-43be-84fe-0cc14c551934,fever,common_cold
+e0fba2e9-2110-46fa-89f9-db9812c7ae71,"cough, nausea",migraine
+391f4496-8339-4434-8330-a274ff27cac5,"headache, fever",food_poisoning
+1bc5a5ad-8c64-4f86-ad2a-cb048fe3deed,diarrhea,flu
+cd6bd18d-dbe2-4f1b-890c-b9ec5456921c,"sore_throat, cough, fatigue, nausea",common_cold
+d5d768cc-47f9-4835-9266-0ade80d4438b,fatigue,food_poisoning
+622ed840-513b-4082-9be9-eb974df3e491,"nausea, fatigue, cough",flu
+8ebfc59c-2f06-4920-be8f-61b353e94277,"headache, cough, diarrhea",migraine
+9a9d364b-0fd2-4d5c-92d3-7600ae44ef6d,"diarrhea, cough, fatigue, sore_throat",flu
+19da9e65-62d9-43c4-b9f3-43c5c33e6d3d,"cough, fever, fatigue, sore_throat",food_poisoning
+347c8974-efc4-4d10-9bae-e18fa0497528,"headache, diarrhea",migraine
+f53692c9-819b-4663-9670-989a5facd63b,fever,common_cold
+4213f766-be14-4c35-b16b-90bbd19266de,"sore_throat, cough, fatigue",flu
+579e96f0-7957-4a7f-80a6-c785b9b5e340,"fatigue, diarrhea",flu
+f5621191-f62d-48cf-b790-e1c30c04d06a,nausea,food_poisoning
+2ac8cad2-5c8c-48ad-bc67-e5a72172d015,"diarrhea, cough, fatigue, headache",flu
+8ed2a0f5-b190-451e-a9f6-2a8e29832bee,"diarrhea, sore_throat",flu
+8bda3294-d812-450e-adfb-76467495a52d,"headache, nausea",migraine
+28b02c49-0f9f-4408-b8e5-362b09c87bca,"diarrhea, nausea, headache",food_poisoning
+9da2613f-f968-4c00-a228-5116c9fcb597,fever,common_cold
+2d5106b0-46ee-47ee-b8d6-cd5cf5be294c,"sore_throat, diarrhea, fatigue, cough",migraine
+7e85417a-7ef8-48fb-bc8d-90190d91b320,nausea,food_poisoning
+29b456ca-f807-4a7a-b1f2-9630c218998d,fatigue,flu
+6223bfb6-cf78-4b39-842c-9c77bae22594,"headache, sore_throat, nausea",food_poisoning
+fa20d775-234c-4583-8f00-105e4911ea6e,diarrhea,flu
+7e6c027e-fab7-4dd3-988e-0dc5683d0eb8,"sore_throat, nausea",common_cold
+f4930f49-b30b-4de1-bd5a-1e2781f63025,"fever, fatigue",flu
+28a65da1-2f98-4d5e-97b4-8f9a2f75e96d,fatigue,food_poisoning
+8a7a3e09-bb9b-43e1-98f3-89bb5d9f5151,"fatigue, diarrhea, nausea",common_cold
+802fdc85-6fb2-42cf-a5ee-c594e870f7a6,"diarrhea, headache",common_cold
+53678555-80bf-4494-a3c3-4950e2273068,"nausea, fatigue, cough, fever",migraine
+d96cf634-5cba-4d6f-9f92-88dd40684512,fatigue,common_cold
+53788944-9dd1-45a6-951b-2747bd0cf263,"fatigue, headache, cough, nausea",food_poisoning
+3aa209e6-1a22-48aa-a5be-2b82e6e23bb0,"nausea, cough",food_poisoning
+23df8aca-aba5-4cb2-b914-9a878f2a69ac,"headache, fever, cough",flu
+31253f4a-97ce-4cf1-8cf5-a2707be25cdf,"cough, nausea, fatigue, diarrhea",common_cold
+240bba15-8f4f-4bf9-9f41-6689ff072887,"cough, diarrhea, fever, sore_throat",common_cold
+49280e3b-891d-46aa-b615-c1034bb01c14,"fatigue, sore_throat, headache",common_cold
+7e7de932-c5e3-478c-b4e0-f21dacf7e1e3,"headache, diarrhea, cough",common_cold
+add635e4-6cff-419f-b80a-9304a82d3e6e,"nausea, fever, sore_throat, diarrhea",food_poisoning
+623050b5-52de-4f88-97e2-98fe6b3ecea5,"nausea, headache, fever, sore_throat",migraine
+481aaed5-d697-429c-975f-4ecb783cb732,"sore_throat, headache, nausea, fatigue",flu
+5993d627-3bdb-4fb8-81b5-5ec8ae14d1d2,diarrhea,food_poisoning
+c2c27a7f-2201-4ce6-9f6b-d1f1891a814e,fatigue,migraine
+29926bd2-3943-4680-a663-29b487f07497,"fatigue, headache, sore_throat",flu
+755c64fa-b5af-45ef-8268-397abe65566c,diarrhea,migraine
+f3118abc-f1ae-4eac-90f9-e96b6cf68507,"cough, headache, sore_throat",flu
+969bd432-1a08-48f0-8a9e-7aadba290abf,"sore_throat, diarrhea, fatigue, fever",flu
+b315d14d-c62c-4b3a-ab65-44a20abb0965,"cough, fever, diarrhea, headache",flu
+be441bad-1a7e-42ec-94fd-1d0e8033ff06,"nausea, sore_throat, fever, cough",food_poisoning
+c8913346-1cf4-4936-8969-5258f16e2c36,headache,flu
+51b1475a-68c9-4a8a-8a80-d352becbf27f,"cough, diarrhea",common_cold
+6390b15f-3163-497c-a358-c6e7fa45446c,"sore_throat, fatigue, nausea, headache",flu
+85150aeb-7171-4ba5-885e-5d9c7442cea8,"sore_throat, fatigue, headache, fever",migraine
+3dfac5e2-f662-436d-ae4c-3a792279d50a,"headache, fever, sore_throat, fatigue",common_cold
+a0686572-2734-4976-8b05-20b31e2e56fd,"sore_throat, nausea, cough, fatigue",flu
+dcc4b1d2-5c38-434e-9189-450956bcd009,"sore_throat, nausea",food_poisoning
+a6cfa7d1-af68-49fa-81af-e82a0125012e,"headache, cough, fatigue, diarrhea",food_poisoning
+b166afcc-4376-407a-92b7-716066d08405,sore_throat,flu
+a39001d7-0d60-43e8-9f0d-433c2796a6fe,"sore_throat, fever",common_cold
+fe9dafc1-e249-45c0-88c1-035e540ba6cb,sore_throat,common_cold
+2ca3a7e3-0ffd-4e51-b786-ec2c9651a26b,diarrhea,flu
+aa10f7d6-bf7b-4ba2-8237-7a4b4c9adde6,"headache, fever, diarrhea, fatigue",food_poisoning
+c1629873-f4a2-4cb9-820b-b81915c4853b,"headache, cough",common_cold
+43201ab8-3f4b-4b97-98d4-76d900bf8300,"nausea, headache, cough, fever",flu
+c96ba478-443e-41f5-974b-dd86516a550f,cough,food_poisoning
+53e08acc-51e0-4e8d-bad5-42062b728b71,"nausea, diarrhea, headache",common_cold
+dbd6808c-12ca-43bb-a8be-6fcb7a6d179a,cough,flu
+2bbc7a44-a977-4782-b0ff-f6f5c04c0da7,"fatigue, sore_throat, nausea, diarrhea",food_poisoning
+d99e56bb-0b08-4766-bc2f-4f3e6c4d15df,"fatigue, sore_throat",migraine
+4042e24b-f315-4b1e-ae98-94abadec83b3,"diarrhea, fever",food_poisoning
+12f22d33-f202-478d-a602-74a5ecba40e0,"cough, diarrhea",migraine
+d3a14cc6-d899-46f7-9c27-e407adae747f,"fatigue, cough, nausea, fever",flu
+f80430e9-934e-47fc-b752-760babb7671a,"cough, nausea, sore_throat",migraine
+cefc9791-28da-4d29-8981-0d461929dbf0,"fatigue, nausea, diarrhea",migraine
+ae253492-b92d-42ad-9e5d-e9c57bb9fea8,"fever, fatigue, nausea",flu
+35eaae36-bc65-441f-97cf-13f328e52c12,diarrhea,common_cold
+ae6e3cdc-6cac-4af5-a2ba-958d38321f0e,"fatigue, fever, sore_throat, diarrhea",food_poisoning
+6de42ac7-8d62-435e-8c5a-f983b664ca10,"fever, nausea",food_poisoning
+02536087-a498-4696-bfe4-9e2a128719d6,"fatigue, headache, fever, cough",migraine
+727bbae8-9ee3-45ba-a121-b978cdcd707a,fatigue,flu
+ea80c138-a2fe-4baa-ba23-d056e293cd08,"diarrhea, cough",flu
+0697c942-780f-483f-a76b-8ce6c495af3c,"nausea, fatigue, sore_throat, diarrhea",flu
+0c1e37fa-5fb0-4c4d-9292-a4d8c15ebcdd,"headache, nausea",food_poisoning
+e3f14338-bd7c-490f-9668-337fca5d96a3,"diarrhea, fatigue, sore_throat, nausea",food_poisoning
+08a1f262-5d02-4fe7-8f44-3e4db5655ad5,"fatigue, fever",common_cold
+19735def-3c29-4582-a5bb-1ad2ce1c6377,diarrhea,migraine
+9dcb11cd-9b3d-40a9-9a5c-b5e34709b513,"fever, cough, diarrhea",common_cold
+c1d16e28-2ab4-4ffa-986d-f81a3a6c27fe,"headache, nausea, fatigue",food_poisoning
+fc0df6ec-fa7f-45a3-8830-982b7c170ccc,nausea,migraine
+b7ea4f9c-6545-4326-9a9a-00cdd90e36aa,cough,food_poisoning
+b74643c1-d8a5-4540-9bb1-e2b6261e823f,fever,flu
+e525a461-f4fb-48cf-bf38-6ea6f1611c83,"headache, diarrhea",migraine
+70546e98-ded8-4c4c-9db7-5766ae6e63fe,nausea,migraine
+34b41143-7755-44cd-830c-331ec8ebb712,"headache, fatigue",common_cold
+e37d4748-0b72-40fc-b5d9-e9e8a605db20,cough,flu
+cf2b161a-3146-4438-b31d-2cfd6c2aa926,cough,food_poisoning
+84a8a752-8bb7-45ba-8d91-ad232faf388f,"fever, cough",food_poisoning
+da666a33-8f0c-46b0-8572-909f3d3aee5e,"fatigue, diarrhea",common_cold
+54917be6-4776-46c8-8a41-dde76bea3adc,"sore_throat, cough",common_cold
+52bffd64-3865-46ea-a3e1-ae64e43bc304,"sore_throat, nausea, headache, cough",flu
+7c11759b-5465-4651-94d0-4d47dc5492c3,"cough, fatigue, fever, sore_throat",flu
+62a9c1a3-b690-4796-931f-3315e9c6bb10,"sore_throat, nausea, headache, fatigue",common_cold
+ce401a4d-3538-4105-9102-b8e9ad620f21,"sore_throat, fatigue, fever",food_poisoning
+a00584fe-1f1a-4353-856a-718342bb3f83,"headache, cough",food_poisoning
+5efe4650-28b8-4b83-a329-e3d1b5e3d99d,sore_throat,food_poisoning
+e6961b16-ced4-471a-8e49-8f9b35b501b2,"headache, sore_throat",migraine
+49280584-89f4-4e33-8e89-105f07262642,headache,common_cold
+0259a1d1-668e-4d99-8d6d-0e4a4d1c2923,"nausea, fatigue, sore_throat, diarrhea",flu
+6fac4dfb-fed7-40a3-89e3-8977cff45ee6,"diarrhea, sore_throat, fatigue",food_poisoning
+eca0670e-9ea2-47e1-be07-16ffa5820e4b,fever,food_poisoning
+bd8c3d83-1434-45fc-bb5a-1cdf216b40b3,headache,food_poisoning
+52e0589c-dbd6-4d4d-9b54-bb2abdcc4600,fatigue,flu
+beee1631-7d11-4b55-91b7-aed217891443,"nausea, cough, fatigue, diarrhea",common_cold
+ec8fa586-e441-4f98-b3ab-de69ff2695f7,diarrhea,flu
+4d967730-a7a9-464c-b72a-010d6df07a29,"fever, nausea",flu
+9f83ed6d-1d83-4d0a-9671-b8c7de66de41,headache,food_poisoning
+20c40789-3926-4bad-bf89-51dd7c18fedd,"sore_throat, diarrhea, nausea",food_poisoning
+9790b800-3c0c-4be1-8b6b-e1ae97697b6b,"nausea, headache, fatigue, diarrhea",common_cold
+bde5e984-4a30-4df5-b5d3-d25fa8cb8702,fatigue,common_cold
+430df17c-bfb1-4f6d-8a96-4899933141bb,"fever, fatigue, sore_throat, cough",common_cold
+651d1ebd-ac09-4507-8922-e7c7ea6df382,"diarrhea, headache, fatigue, cough",food_poisoning
+6b3d1bbc-6ca8-4c7e-8295-e49baa66ccfd,cough,food_poisoning
+77f17323-5e34-4c13-a112-4dd47f57c5d6,"cough, sore_throat, fatigue, nausea",common_cold
+bf380e2a-bf65-4f0f-a764-d849c9d79620,"diarrhea, sore_throat, nausea",common_cold
+05684073-c3b2-42f7-8b66-dff684d6cc11,"cough, diarrhea, headache",migraine
+ec066533-21f4-40d7-bfbe-4624ed570d8f,cough,common_cold
+e9b0693b-bb1a-40c9-a6e6-2fa605ef75fb,"cough, diarrhea, nausea, sore_throat",food_poisoning
+b90d0e6f-08d9-4cdf-b66f-4cbb0943a6b7,nausea,migraine
+87650a39-59ee-486c-9c0c-d4d6cc597bf7,"headache, fatigue, sore_throat",migraine
+a3bf0910-0db8-446d-ae22-59fce9caf672,fatigue,food_poisoning
+c07b92e2-e73f-4240-b68d-d6c02efff037,"headache, sore_throat",food_poisoning
+bc5a8323-5873-45dc-9234-9b60fa4e0a95,"cough, nausea, diarrhea",flu
+c523d14a-599e-4bd5-9e85-dc0d888dc1c0,headache,migraine
+054e0e08-5518-4337-ba8f-8206cf1601d6,"fever, headache, sore_throat, nausea",common_cold
+9be02903-84d4-49c8-9748-b8f92d3bf400,"nausea, headache",common_cold
+8fd774fe-167f-4c48-a5a6-c1bbae065321,diarrhea,common_cold
+ac8cf264-144a-4446-a169-38a860c208b5,fatigue,migraine
+210c6879-b8dc-42a0-bbcc-714c51017051,"sore_throat, fever",food_poisoning
+acef8f16-91a6-4171-844f-7a14e1a2881c,"fatigue, fever, headache, cough",common_cold
+c90e57c5-322a-41ec-939d-d8dd5d721b37,"fever, headache, cough",common_cold
+11b48a91-5ce6-4e6c-a3d9-0572e513dbe7,"nausea, fever",flu
+b2dd59cf-0698-423a-8d34-1fea1571c1e1,"sore_throat, cough",food_poisoning
+4cd65545-8c2b-4b86-b317-2a60be17202f,"cough, fatigue",common_cold
+edb545e2-395c-4efc-a91d-204d916d3893,"sore_throat, fatigue, nausea",flu
+7c502754-5136-4d29-9bc7-e5d06d99bf47,"cough, fatigue",common_cold
+351b94a8-08e3-455a-a9a1-fe4a5b47afe5,"cough, sore_throat, headache, fatigue",common_cold
+dd44f1b7-e6a6-4c76-8be5-edf7412b74dd,"headache, fever, cough, diarrhea",common_cold
+f35a5d11-cb81-4068-b468-4646645ced60,"diarrhea, nausea",flu
+97c0d138-46c7-4827-8cb9-dab1e008fb70,"diarrhea, headache, fatigue, fever",food_poisoning
+c0646e76-125e-4ff4-90a4-8d84de36ae2b,"nausea, cough, fatigue",migraine
+0ba307a1-2c5c-41b9-8932-dea99b31b7fe,"diarrhea, fever",migraine
+10b437f2-9370-4dfa-a97a-d6058c43c44c,"diarrhea, sore_throat, headache, cough",flu
+ad1fbcbb-5ee4-4aed-9b42-5b89b768a796,"fatigue, nausea",flu
+f43cbc98-f286-4982-a943-7ab9b49d2781,"cough, headache",flu
+a14d706c-1887-4a72-aacf-cadcc2668e3b,cough,common_cold
+575ddff4-7f18-4a6e-a75e-fd1efb5e6796,"headache, fatigue, diarrhea",flu
+d97e280f-6905-4b21-a482-eb0c04c9ff94,"diarrhea, cough, nausea",migraine
+7d07d0a3-12b7-4a53-a80a-72feb2cbecd4,"fatigue, cough, fever",common_cold
+b7f92a43-e3f1-4012-a9fd-1bc2127b42eb,"cough, nausea, headache, fatigue",flu
+fab44ddf-02b7-4892-a91b-d23cdc507ae3,"headache, fever, fatigue, cough",migraine
+9c1ca41d-fd58-4135-9cac-cf9b841daa74,fatigue,migraine
+77ef6e6b-6131-4906-bd1b-98c4da61bf3c,headache,migraine
+8c015bf5-84ba-490d-84d7-a4aad10fe60b,fever,flu
+80654804-a4c0-4ac1-a428-1759d54da2f4,"sore_throat, cough, fever, headache",food_poisoning
+3b8681e7-63d5-4432-b4b4-d02ec722ee45,"headache, diarrhea",food_poisoning
+d9cfd0f9-adea-479f-aeba-52c1938dad5e,diarrhea,migraine
+34d9954b-6aa8-404e-a269-ffd88a5c34ea,"fatigue, nausea, diarrhea",common_cold
+923dc22a-80d2-4cec-9cad-ef4bca65dea0,"headache, diarrhea",food_poisoning
+d774e040-6245-45b7-9d1a-4b22a5197326,cough,migraine
+dfa214fb-c4f5-4e93-b71e-4274ff1cd2ab,"cough, headache, sore_throat, diarrhea",common_cold
+fe5f7acc-8b4c-410f-bf7c-c71060c0ef25,"nausea, fever, fatigue, sore_throat",food_poisoning
+1191e4f1-7647-4824-a7b8-733cd8aac31d,"diarrhea, headache",food_poisoning
+fa455adf-3a39-41fb-904a-af7d6c1244c3,"fatigue, nausea",migraine
+1b8f63a6-881a-4285-9610-0a5795b5dbdb,"cough, headache, diarrhea",migraine
+2b53507c-bd13-4102-af43-afd63858b4ac,"diarrhea, fever, sore_throat",food_poisoning
+17d0a9a1-7ae9-42fc-aee2-faabe110f69b,"fever, headache, nausea",flu
+6513e418-cbae-4db0-bef4-3dde65291d22,"fatigue, fever",migraine
+0194aa97-cf2b-46ea-a841-f7a16170b9f5,fever,migraine
+f932c593-73c9-439e-8a57-8872db3b0407,"headache, nausea, fever, diarrhea",migraine
+a8ac09e5-d461-4730-b994-9f530378d448,nausea,food_poisoning
+a23e0cce-6e2d-4ddd-b0eb-e8d39fd8ba15,nausea,common_cold
+67e1f27a-8027-441f-9648-c291c3578102,fever,food_poisoning
+f8fde424-2462-49a7-9dbb-bdd174133c34,"nausea, sore_throat, fatigue, fever",food_poisoning
+37aa7619-af6a-4306-9b34-57814f5483c9,"nausea, fatigue, fever, cough",migraine
+597717c5-70d1-43df-94d2-078c9b4b0045,"cough, sore_throat, fatigue",common_cold
+96795653-084f-4035-8155-e8dff74d06d6,"cough, sore_throat, nausea, headache",migraine
+3cd40764-0760-49d0-ae5f-c1f4e355597d,"fatigue, nausea, cough",migraine
+6628f9c1-310e-41bb-ad83-ed06440fae69,"diarrhea, sore_throat, fatigue",common_cold
+ac5c210e-8cc2-4d22-bc07-5619d04a83c9,"fatigue, headache, diarrhea, cough",common_cold
+302e36cb-0671-4dc0-b6af-4abd45c87d76,"headache, diarrhea",flu
+3d712a31-c813-4157-b425-af79c0cc0d70,diarrhea,flu
+97e86626-1d8f-419a-9099-c84e15e454be,fatigue,migraine
+93e931d9-225d-4de4-88f8-d8df32ef23aa,fatigue,migraine
+b4912f0e-b734-43d5-a41e-6e2960adcb42,"fever, headache, sore_throat, fatigue",food_poisoning
+4acdd072-7349-47e0-aab6-56239eb5aa58,"nausea, diarrhea",migraine
+ca5b0723-4df9-4f0f-a991-e26a78557a11,"fever, diarrhea",flu
+a27682d5-0452-4b72-9b5a-412575a501dd,"nausea, headache, diarrhea, sore_throat",common_cold
+fe5ceaae-1f02-4c94-865d-14ac9daf49b4,"fatigue, sore_throat, cough, diarrhea",migraine
+90af79f4-0b4f-430c-95d9-6d59eb61fdaa,headache,food_poisoning
+b860d36a-ca65-4cfb-a383-bd4d2b307836,"fever, headache, cough",migraine
+4c04f4bd-2c28-4013-ab00-e729f98c85d0,"fever, headache, cough",flu
+72d1cf93-46fc-4ec3-ae30-d24b2e039602,"nausea, cough",flu
+c40b55f9-6e44-4afc-b03e-159d07a32c06,"nausea, fatigue",common_cold
+ac28a531-abcc-42d1-a529-70c4a18689db,"sore_throat, fatigue",migraine
+c62ec38f-c8ea-41aa-8f72-37ad3e9f09ea,"headache, cough, sore_throat, fever",common_cold
+b9c00870-99c0-4a89-a778-b2c458ca9a65,"headache, nausea, fatigue",food_poisoning
+f12c0d47-5ae1-4ccc-b13e-eb706b374a50,"headache, nausea",food_poisoning
+45eef3fb-7cba-4733-a2cb-c4c78f2f693f,"sore_throat, fatigue",food_poisoning
+efccef3c-ad45-44d9-a043-3bc350a7a777,"headache, fever, sore_throat",common_cold
+065f7e0a-5df2-4587-a27a-27f0c81c172b,"sore_throat, cough",flu
+f2ee5c03-081a-4d25-a360-7966c385d5b1,"fever, cough",food_poisoning
+ee024efb-fef8-4979-b29b-8ad50bd4e7a6,"sore_throat, diarrhea, nausea",migraine
+10a7f817-dcd0-42a6-8c3b-62ffdb230e61,"cough, diarrhea",flu
+4afee194-5cdf-48a4-b1c8-f1c80b681b50,sore_throat,food_poisoning
+cdfefcae-8599-46dd-8a0b-482469f9ed3d,"diarrhea, headache, fever",food_poisoning
+80a226a9-c3de-46f9-a993-78a3ca430753,"sore_throat, nausea, fatigue, cough",food_poisoning
+a9d2f667-06b0-4132-8895-4804b849cfce,"nausea, cough",food_poisoning
+767411d5-0ef5-4fc7-81f7-0c69315c6004,"sore_throat, nausea",migraine
+0f3eac99-333b-46c2-a9e4-1fbbfe4fadd5,fever,food_poisoning
+d175f610-de00-4304-8986-b920369c914e,diarrhea,migraine
+cb8d31b1-4ca7-4dec-b48c-df662c32dc75,"sore_throat, diarrhea, fever, nausea",food_poisoning
+e23e80bb-c551-4c48-8e2a-7777dfa87870,"fever, nausea",common_cold
+78d2aeda-6298-4950-9f17-58e425d3cea0,"fever, diarrhea, nausea, headache",common_cold
+09e78d6f-ef7f-4337-9ffc-9634b343eb3e,"sore_throat, fatigue, cough, nausea",common_cold
+4e62f8d5-40c8-46b0-85d8-9b35c5a89919,"nausea, cough, fever",flu
+e9aa9b61-76b9-45de-b9b3-5467886548bb,"diarrhea, fatigue, cough, fever",food_poisoning
+3e1f4751-7e30-4998-877f-72b7d9941e04,fever,food_poisoning
+5b19cd83-7543-48d5-b50c-c2b7af9e7b2f,"diarrhea, fever",common_cold
+84c0fcaa-f6a9-424b-8319-4d2484e633c4,headache,migraine
+fe182093-fbcd-4463-8799-68dc415e8062,"nausea, diarrhea, fever",migraine
+b67a2cf1-69c3-4478-94cf-1a437348f8a8,"cough, headache, nausea",food_poisoning
+5bc1902e-fc98-4061-8f72-a99987b3eba3,"fever, sore_throat",food_poisoning
+b894cc80-7d3e-4979-966d-39fbb64df2d1,"fever, headache, diarrhea, fatigue",food_poisoning
+02ec5269-fd9c-4764-a369-134b494e503a,"diarrhea, nausea, headache",migraine
+9fddd4fa-4a71-4ca7-b441-abe842603c49,"diarrhea, headache, nausea, fever",food_poisoning
+a12fba42-6875-4a30-90ef-f79f34eb0345,headache,food_poisoning
+78ac6884-35e2-477a-b083-fac202424349,"fever, fatigue, headache",migraine
+5ebd15f4-9539-49f5-9ca7-cf61ae6485a7,"nausea, sore_throat, headache",common_cold
+748f3640-f543-41ec-aa6a-d655d2a4ae94,fatigue,migraine
+6fcf5129-04b9-429e-9767-5f07c43974ca,"nausea, fever",flu
+8ff6c45b-2082-4b76-b68f-a5a5ed36fc86,"headache, cough, fatigue",migraine
+84c5dc1c-a238-480f-b0d7-169a8d2d0064,fatigue,common_cold
+30e7d52a-efee-4be0-9288-0437cbc11b89,"diarrhea, cough, sore_throat, headache",common_cold
+c0a456e7-142b-4775-81f0-c25690dcd45d,"nausea, cough, fever, sore_throat",flu
+206da7f4-0bea-4acf-b996-f30324e0ab8d,"fever, headache, fatigue",migraine
+25594c8e-c9ef-4598-96a8-ae0a2405b6a5,"sore_throat, diarrhea, fever, cough",common_cold
+418f7cc4-e51b-408e-a694-7944ca0bbb39,"diarrhea, fever, headache, cough",common_cold
+30c795cd-5456-43a5-a27d-603dfca1fdec,"nausea, fatigue",common_cold
+99a556a5-cb6c-4c48-ba3a-a443dc159ee1,"fever, headache, diarrhea, nausea",food_poisoning
+feb71dd4-7e6f-4846-bce9-a2c55953881b,"fever, diarrhea",migraine
+e709e421-3f50-47f5-9292-36e5a7bfb90e,"cough, nausea, diarrhea, fatigue",migraine
+8c0387b6-6373-49bc-94df-ef38177cfdcc,"fatigue, headache, sore_throat",common_cold
+d3841cdd-472b-4b43-9b48-e181a62a1767,"fatigue, fever",migraine
+ce0c9186-e430-40d8-963f-34d963b48a76,"headache, fatigue, diarrhea",flu
+ff11d07a-157e-4787-9514-90db1e8d55aa,"sore_throat, nausea, diarrhea",flu
+26475c00-60b5-449e-872b-b8ac6d34ad2c,"headache, diarrhea",flu
+32df8ff4-b688-4516-a0c8-cabd563a5d93,"fatigue, fever, diarrhea, cough",flu
+6d2ea8b5-897a-4926-9ca1-e0e149eccdb2,"fever, sore_throat, headache",food_poisoning
+4a65c1a1-33d6-4e7c-8c0a-929bcca469b3,fatigue,flu
+d179a39f-3fd1-45f9-af7c-f5b89fa0f71f,"cough, sore_throat, fever, fatigue",common_cold
+85bd61c4-8739-4b8b-9e89-761600d3d8f7,"nausea, fever, diarrhea, headache",migraine
+a3b1f7be-ec81-44bd-8546-341f8af32dc0,"diarrhea, fatigue, headache, sore_throat",food_poisoning
+75259caf-1ab2-4f82-9c41-7c4e5d1968e2,"nausea, sore_throat, fatigue",common_cold
+7d0cd2b3-c671-41f3-af62-9f315301dc7e,"fatigue, diarrhea",common_cold
+93293988-2524-44c1-af26-79dfe056856e,"nausea, cough",migraine
+0013991c-3258-4a83-9933-7ce9c8183da3,fever,common_cold
+41b2680c-fd36-44e9-82c4-1e7222470ebb,"headache, sore_throat, diarrhea, cough",food_poisoning
+b238094d-5885-498b-a0c0-5386e7854360,"fatigue, diarrhea, cough, headache",food_poisoning
+93c0918f-2618-45f1-badb-c3705d10ace1,"sore_throat, fatigue",food_poisoning
+db956a85-4ef4-4cd8-afe0-ed2e3f369fbd,"sore_throat, headache, diarrhea, nausea",common_cold
+cfdb1110-412f-4143-a448-70d287211e98,"nausea, sore_throat, headache, fatigue",food_poisoning
+d51324aa-fc3b-4190-ad35-ac0ae9d217f6,"fever, headache, nausea, diarrhea",common_cold
+a2c36a74-8b61-4acc-8653-39216e10db9c,"cough, fever, nausea",flu
+1a97f06e-1b01-4d21-bd59-887033023712,nausea,flu
+b905a635-8a04-45be-8bdb-4570c5636f50,headache,common_cold
+5813df68-00e5-4270-bec3-7dbc83a7f87c,"sore_throat, fatigue, headache, fever",food_poisoning
+8427490b-e710-41bd-8d3f-698960c6a077,"headache, fever, nausea, cough",migraine
+5c76400f-efd0-4196-80c6-505e69bb17b4,"sore_throat, fever, fatigue, headache",common_cold
+d68d151d-0bb9-4875-8d04-ee126c90c458,"nausea, fever, diarrhea, sore_throat",flu
+5f93ef98-a9e8-462f-b45f-310af1a17f81,"cough, sore_throat",common_cold
+f3ff3b61-2a5b-4d54-b5cd-0d1f413b639b,"diarrhea, headache",flu
+933ad42c-d020-4995-a7d7-feeb4b6a19f5,diarrhea,migraine
+e56b0fc1-dfa8-4fc3-b7d7-db425e1d6343,"sore_throat, headache, diarrhea, fever",common_cold
+d480d9d8-ee90-4a64-ae66-f2b9e54f6fe2,"sore_throat, diarrhea, fatigue",food_poisoning
+b7b95913-4006-43fd-a9e4-f07e7e1fc4d9,"nausea, diarrhea",common_cold
+913cfcf7-67fa-495b-a89a-13cf689d4bff,"sore_throat, headache",food_poisoning
+e93110fc-9db0-4407-8f2e-d01544b5d566,"nausea, fever, sore_throat",flu
+a6ad4ad5-897f-4d23-b572-32b49649c91d,fatigue,migraine
+668d2e61-a1a8-4e35-b0b9-e1300733275f,headache,common_cold
+11bf3d68-797a-4adf-b109-4845a5360f76,"cough, fatigue, headache",flu
+1dc13ff1-2772-4033-bad9-9f8b8620c105,"diarrhea, fever, nausea, sore_throat",food_poisoning
+bcb4fd19-3af6-46f5-a9a9-d57a8254ce84,"cough, fatigue, headache, nausea",food_poisoning
+0e59034e-0f0a-4ca8-b07a-3cd0aa2755d4,"fever, cough",common_cold
+dc10dc00-727e-46ad-b3f3-0d759812b2f9,"nausea, sore_throat, cough, diarrhea",common_cold
+1c587697-d07b-4d13-ab76-40ea2adce3f5,"headache, diarrhea, sore_throat",food_poisoning
+3c60b34d-0576-4c34-bb0a-78042645da8a,fatigue,common_cold
+0c0cfe9f-7e0a-4f26-aac2-4da3792f7e1e,"diarrhea, fever, nausea",migraine
+65d4d50f-0c13-4757-bc5c-7dc6dee95d66,"fatigue, cough, sore_throat, diarrhea",food_poisoning
+f0da7e62-51ad-4337-b8be-33e832fd9c02,"cough, fatigue, nausea",common_cold
+d0b7eb5e-f3d1-4e29-87b7-f42a5ddb6f2f,"cough, fever, sore_throat, fatigue",flu
+f7ec0ed4-a98e-408d-a48c-43a72fbb5014,"sore_throat, diarrhea, fatigue",common_cold
+cc6d3b34-003b-4a96-97f4-c3b07d3e20b8,"nausea, fatigue, headache",flu
+f940f010-50b2-4b07-9661-fd54582123af,"diarrhea, headache, nausea",flu
+f2d1c349-344c-45de-a17c-4d9a5cbf2760,diarrhea,common_cold
+43d59c42-6c27-4891-b945-64e316e1095c,nausea,migraine
+f2af26fd-4e4b-40e0-8c06-05aa7bfc7ced,"sore_throat, diarrhea, nausea",migraine
+fcb4dc2b-e869-4fce-9d85-6122a9740dd9,nausea,flu
+16eba98f-1b36-4701-9fbb-8adc945690f0,"diarrhea, nausea",flu
+6817883b-dc86-4020-b806-84cb2d6f76f1,"headache, cough, nausea, fever",migraine
+34c23d33-58df-4b00-b337-e95ca0ce9a1d,"cough, diarrhea",food_poisoning
+f13fe7ef-e57a-4fcd-a88d-b91e21b9d8cf,"diarrhea, cough",migraine
+8e8c9658-ae4a-4cb4-ad75-86180ebc215c,"nausea, sore_throat",migraine
+7d397ba9-107e-4aa6-b537-f14e28d3d344,"sore_throat, nausea",flu
+0e544226-629e-4495-a62c-0bc01e62dc69,"cough, headache",common_cold
+9bf3075d-6b68-42f3-8846-41d75ae5e1a7,"nausea, headache",food_poisoning
+f7d0547a-846b-471b-b55a-1e00beeebbd6,"fatigue, headache, cough",common_cold
+b06f8c43-bb1b-4c0a-b2a8-bc1f0d24bd76,diarrhea,migraine
+7ecce9eb-c5e6-4c1a-96e9-dfdaca4b3d2e,"fever, headache",food_poisoning
+ae690364-9811-4d25-a306-cb8ddf7770d5,"fever, diarrhea, sore_throat, nausea",food_poisoning
+ec940854-4487-44c0-8079-09c1090362f7,"fatigue, diarrhea, fever, nausea",migraine
+6000f9ac-fab3-4016-bdf8-10b26d52b9fc,"diarrhea, fever, fatigue",flu
+11233d93-e10e-46c4-b67a-ef2486b806cf,fatigue,common_cold
+b4cc240c-38df-4318-862f-3becdee02375,"diarrhea, sore_throat",migraine
+548c0fdb-85b5-431f-9d66-4bd8e2370f37,"nausea, cough, fever",migraine
+69325b16-d308-4bc6-91c4-ecc8c941a39d,"nausea, fatigue",food_poisoning
+277b8764-685a-4f69-978e-da8a97356e5b,nausea,common_cold
+a90ed701-0876-4810-ad67-88d2670d8ab2,"sore_throat, headache, fever, nausea",migraine
+cabfb447-4d0e-44af-b726-2e1252f24c95,"sore_throat, fever, headache",flu
+6a850862-96ff-42bf-8a38-06ea417c6626,fever,migraine
+d9efa93d-221a-4ce9-83bc-d07a6aaa9c7f,"diarrhea, headache, nausea, fever",migraine
+012bf9a4-a50b-4f94-a4c4-993ac48ea0cf,"fatigue, sore_throat, nausea, headache",migraine
+7c335dad-df45-4986-b003-cc9c124e575c,sore_throat,food_poisoning
+85e954e1-64b2-4ea7-88cc-131712e97f47,"sore_throat, cough",flu
+1186809f-90b3-45d7-ba35-44644401f15e,"fatigue, cough, diarrhea, sore_throat",common_cold
+bb61be6f-baaf-44df-a817-b6d1ed26af95,"cough, sore_throat, nausea, headache",flu
+95077099-ce35-461d-8e36-2d4b14abc562,"nausea, headache, diarrhea, sore_throat",common_cold
+7bc23547-778b-42b7-89ab-b094a5252229,"cough, fatigue, sore_throat",migraine
+d9e7e1ce-c3da-4760-a78d-71aa1c89140f,"nausea, diarrhea, cough, sore_throat",flu
+d30dd840-16bd-49c9-a953-af1f215ac29e,"diarrhea, sore_throat",common_cold
+1a9813d5-21df-4a9c-a825-de076e5cbc86,"headache, sore_throat, diarrhea, fever",food_poisoning
+8335d218-1e87-4f95-a2a2-7e5d03bbfc92,"fatigue, cough",flu
+a317a1c9-332b-45d8-af57-c5f38a9bc92d,"diarrhea, headache",flu
+fbc7a8c6-2fdf-466e-aa58-163723c031a1,"cough, diarrhea, nausea, fever",common_cold
+673f2f24-b7da-42ea-a891-8bb361160928,"headache, fatigue, sore_throat",flu
+2ecc1a22-1b0a-41b9-82e8-f44fa0781a33,"nausea, diarrhea",flu
+cf95aef6-ee20-412a-bc9f-ea56d63b0e9b,diarrhea,common_cold
+8d3c6fa8-7c16-4df4-8138-64ef6a3f83b0,"fatigue, fever, sore_throat, cough",common_cold
+9922eed8-2f10-47ab-af09-bd115838ac4e,"nausea, headache, fatigue",flu
+5ece2c53-8310-40a1-8c94-f514b2c7b691,"headache, sore_throat, fatigue, cough",flu
+d5d8ef78-1351-4d99-b731-1ce356a47f70,"fever, diarrhea, fatigue",common_cold
+a178a757-98f9-4953-a484-8a0a6d43051e,"cough, fatigue",food_poisoning
+4ea863eb-ab4f-4981-9f2e-f1f7915a7eaf,"sore_throat, fatigue, nausea, cough",food_poisoning
+0c981495-7cf1-464d-82a4-d97376c4d107,fever,food_poisoning
+3db20fc0-130e-4f83-a0b3-ed6bfbb0b7a2,"sore_throat, fever, fatigue, diarrhea",food_poisoning
+5e9e57ae-78e3-4c24-8fd6-f7c0cc642956,fever,food_poisoning
+e3c484f8-0b94-4288-baed-f656d8f6a86c,"nausea, sore_throat, fatigue, cough",migraine
+cb68c761-6027-4ced-85d3-f2658aba2c94,"headache, sore_throat, nausea",flu
+4c1cc387-aeed-48c7-abc7-52a140589af8,"diarrhea, fatigue, sore_throat",migraine
+4aa9ce19-e994-4cf7-9f30-0ca2571593c1,"diarrhea, headache",food_poisoning
+f7f66a9d-6922-4fd5-8306-0b7b609e1dac,"fatigue, sore_throat, diarrhea, cough",flu
+5de4bd3f-0c77-44e2-bcad-c22e12594f2b,"headache, sore_throat",flu
+cadafdaa-3da2-4596-a4e9-e09eb297571a,"nausea, fever, sore_throat",migraine
+244cb6ed-2230-4b5c-b01c-7f4f14e3d885,"nausea, fatigue, sore_throat, headache",food_poisoning
+98e01ff2-41c3-4236-829b-643cdbd84686,"fatigue, fever, headache, sore_throat",common_cold
+61603e64-43c3-422b-8201-c3c13be983a8,"sore_throat, nausea",flu
+f6382908-548f-4d93-810c-3fb6fbf8c203,"diarrhea, fever, nausea",migraine
+0337d605-1319-4899-a338-22a83be2a636,"fatigue, headache, fever",migraine
+811043ea-cb6d-4a4f-b8c8-774befa39a65,"cough, sore_throat, fatigue, nausea",flu
+33826c9c-e7b7-4ac0-a45e-90780dd45288,sore_throat,food_poisoning
+cefe632f-32a6-491b-8ec7-ee014d0a3055,diarrhea,common_cold
+67b3f19a-103d-4614-9d1e-ac6800c2a6a8,"headache, nausea",food_poisoning
+13c71572-cb02-4061-b0e9-3bdd1276fff8,nausea,flu
+2b53634b-5c48-411c-b6c1-6b37a31a96c0,"fatigue, sore_throat, diarrhea",common_cold
+d61237d2-d65f-43eb-bd37-073ca4dc1a88,"fever, headache, sore_throat",migraine
+25accd1e-e323-49f2-b657-99b9076b89db,"cough, headache, fever, diarrhea",common_cold
+9a21848a-4afa-4a26-939f-31cdef77dd71,"fatigue, cough, fever",migraine
+66e8f85f-2016-4e5d-9af0-b836b1898896,"sore_throat, nausea, fatigue",food_poisoning
+2ed4ba3e-272f-4c34-be24-82bd37583524,"fatigue, fever, diarrhea, nausea",food_poisoning
+b880a09a-6c9b-430a-9488-2397097b0734,"fatigue, cough, fever, headache",food_poisoning
+83957fa6-46d0-4a80-b46d-a909350ef248,"nausea, diarrhea",flu
+2d8ed236-6d81-4037-ada9-a2d9966fc9b2,"fatigue, nausea, cough, sore_throat",flu
+f9ed599d-4888-4674-9fed-ed8e5bd74389,"fever, fatigue, diarrhea, headache",food_poisoning
+c6f56fe1-f49b-4277-8f5f-18a22e3ec81b,"cough, sore_throat, diarrhea, nausea",migraine
+a0b3b172-fda1-4ec8-a4e9-85fc77e69c88,"headache, nausea",food_poisoning
+34661e3a-c60e-486f-a7df-9ce297c8f858,sore_throat,food_poisoning
+eae50798-f296-44ac-8988-5163633529fd,"fatigue, nausea, diarrhea, fever",migraine
+5bbc53e4-7b0b-48f3-8659-82fd795d1d7a,diarrhea,food_poisoning
+6512f5aa-a396-47e4-b43c-bdba0c513234,"headache, fatigue, fever, sore_throat",food_poisoning
+face5c3a-eb68-4069-b027-54c52d3f4de3,"nausea, fatigue, headache, fever",common_cold
+2217eaf3-1bf3-4e8e-9c06-d44b7a5ef63b,"cough, diarrhea, headache, sore_throat",migraine
+931bdfac-7249-40aa-9542-623fa5099cd7,"fatigue, cough, diarrhea, sore_throat",food_poisoning
+94a14585-91d9-48cc-84b4-720f71e9287c,"nausea, sore_throat",food_poisoning
+2b705b23-e320-4f87-8f0e-8bd228201276,nausea,migraine
+36e47eca-2657-4286-95e6-55f828d599a6,"nausea, diarrhea, cough",migraine
+d7f0f99f-477a-4b18-9b63-6f59e2630f76,"nausea, sore_throat, fatigue",flu
+70178831-439b-48c1-887a-86e94590f989,diarrhea,flu
+57e3c49a-62aa-478a-997b-889ee116d481,"diarrhea, fatigue, fever",migraine
+e5f2ef42-52eb-44f0-818b-58561922fc2a,"headache, nausea, cough",flu
+d749b97f-e11d-4c4b-9a08-735dba36c5a1,"fatigue, diarrhea, cough",flu
+45f48943-2163-49c1-9ea0-2b87754f852e,"headache, sore_throat, fever, cough",food_poisoning
+8e61a767-5242-4c4c-9f07-34cef63e7e62,"cough, headache",food_poisoning
+7f677998-814c-472e-b2ba-cdad78a6e70c,"cough, nausea, fever",food_poisoning
+62f984aa-dd3e-4086-a217-f6c3e2e5edf8,nausea,flu
+c02927b8-0057-4845-8d99-c6cf76f32085,"headache, nausea",flu
+be029e0e-ed46-4fee-82e8-2f5c7c0820be,"diarrhea, fatigue",common_cold
+1afbbc57-db9e-4532-bc2d-44893ca76227,"diarrhea, headache, cough",food_poisoning
+5204874f-3799-4490-bb4c-16870277dd9b,"sore_throat, cough",migraine
+6a73931a-c13b-45d5-b767-b74d3d9fb5c2,"cough, fever, sore_throat",migraine
+9352a5ef-90fa-4828-b8ff-0d20fee6eeec,"sore_throat, diarrhea, cough",flu
+9e69f2d9-da38-4436-afc6-8b6aa27e3c6e,"cough, fatigue, nausea, sore_throat",common_cold
+c5599d20-ae75-416e-871d-c7eba4fb267f,"diarrhea, fever, cough, nausea",common_cold
+636c87c4-0696-4a6d-ae48-b65e373fa180,"sore_throat, diarrhea, headache, nausea",flu
+5356254b-8553-4c3c-85c7-0046074f5cf0,"cough, headache",food_poisoning
+676c9af8-37b5-4960-8204-4dd9489b6a93,fever,common_cold
+5298e719-3585-4d34-8f19-3cf7d64e614f,"cough, fever, fatigue",food_poisoning
+bb25d7e3-7482-4f7a-86e8-ee2712729448,"cough, sore_throat",flu
+2ba79bea-f158-43a3-adad-0a945ef82c97,"fatigue, diarrhea, headache",migraine
+f33091a1-cbdd-46d1-aebf-cb97be504cff,"fever, sore_throat",migraine
+39241a2b-f586-4e47-a88f-8883209e21ac,"sore_throat, headache, fever",flu
+66929ee0-f4cc-4835-9c79-b5391cb2e319,"headache, diarrhea",food_poisoning
+9451339d-46a1-430a-b65b-89140cd57b24,"cough, diarrhea, nausea",flu
+c6849380-7f58-442f-86fa-152ffdb49d77,"fatigue, cough, sore_throat",food_poisoning
+3c8dcfa4-f9e4-4b86-9e87-4bc3a80c3257,"nausea, fatigue",migraine
+c2b750fb-2c4b-4ffb-9c31-c40636a8b2de,fatigue,migraine
+59e313bd-7f8d-4b32-810e-0b2c6cf1106f,"fatigue, fever",migraine
+950b18b4-b8c5-4d34-9c79-7f8887ebf67e,"nausea, sore_throat, fatigue, headache",common_cold
+e74e3c43-69e2-421b-b8b9-8b18df5e53ce,"headache, cough",flu
+f242a3f9-8e5c-4fdf-a4ef-81ef7e62fb9d,"nausea, headache, diarrhea",migraine
+cb65e5b6-de0f-4662-979d-de4c56678b64,diarrhea,migraine
+84ffbd84-a4c0-4b0a-8c4d-9de4a6930079,nausea,flu
+3cb0bb6e-bc28-412f-8197-2d0fca3bc8bc,"fever, nausea",migraine
+89f78972-8d89-4fe8-bd49-a70c9430fc6f,"cough, fever",common_cold
+bda279f1-ba77-4d57-ad5c-8bb3bde3b6b1,"cough, nausea",food_poisoning
+c1b0ef69-d398-4f43-84bc-cac6705abb6b,nausea,flu
+1a93fa7a-e578-4043-8a0a-3bb942c0bfed,fever,food_poisoning
+73260f68-fb69-4417-9fef-89f42fa7435b,nausea,common_cold
+f99e6b50-9e97-4ea9-a93d-221aee1dfbea,headache,food_poisoning
+0f6f088c-d844-4afc-8b21-7758e020fafd,"fatigue, fever, sore_throat, nausea",migraine
+f7ba8c2b-7a2b-43a8-af4e-b3d14b4cf374,"cough, headache, fever, fatigue",food_poisoning
+0981ee77-28bb-4e0e-934c-f62bb8d621d0,"fatigue, diarrhea, nausea, cough",migraine
+333dd8c0-3a5a-40f6-87b8-a9f962ef15f7,"fatigue, fever, diarrhea, sore_throat",migraine
+63902e78-7df6-4c02-89cd-afc49da70b81,"cough, diarrhea, fatigue",food_poisoning
+ac2adfa0-c74b-45ab-b7b1-b1d9f0458e36,"fever, diarrhea, cough, sore_throat",migraine
+d52493e0-3eb7-4699-881b-4e89e8cd03e5,"diarrhea, fatigue, sore_throat",flu
+cdef9f43-d9bb-44a8-9a90-d2032688ef51,"diarrhea, cough, fatigue",food_poisoning
+705785bf-9aca-4978-bffa-d204a27d2ed9,"fever, sore_throat, nausea, headache",flu
+509a27b2-23d5-4683-a2a1-1ded565f6b03,cough,common_cold
+5575ebb5-5a74-49ed-b8b0-0e30263f0821,"diarrhea, nausea, fatigue, fever",migraine
+fbac71ab-1ab9-426f-8429-47cc77785f1b,"nausea, diarrhea",flu
+dbc98140-46dc-4183-98c1-68e6c9c0afac,"diarrhea, headache",food_poisoning
+1125beea-fe67-4123-9c5e-348b760d8090,"sore_throat, fatigue, fever, cough",migraine
+92159c4b-2260-4ad8-8cec-e2405a98888d,"sore_throat, fever, fatigue",common_cold
+24d2b0d7-5916-49bf-98b8-5a1273dfff49,"fever, sore_throat",flu
+fec6d584-ec77-40c2-82d0-343480f65e9c,"sore_throat, nausea, diarrhea, fatigue",common_cold
+acca9d3b-2b9d-4dba-9430-7be8dfa8c5b4,"diarrhea, sore_throat",food_poisoning
+0e744a9d-c5fc-4eab-a367-d5b23e02d17c,"headache, fever, sore_throat, cough",food_poisoning
+82d9f429-0453-497d-b04f-517d02c518dc,cough,flu
+6cd73103-c393-4c85-84e1-30a876d454dc,"cough, fatigue",migraine
+32f4a552-cefd-42de-89cf-925b3b16efe9,"cough, diarrhea, fatigue, sore_throat",flu
+4c27440b-e986-44cb-9e0b-8d6dff07676c,"fatigue, sore_throat, diarrhea",food_poisoning
+7235c3f1-6584-4548-a857-6ac0b7caa4cb,"nausea, cough, fever, sore_throat",food_poisoning
+452c0e87-f305-40ad-8410-d5cb700b2071,fatigue,migraine
+13420f2d-ddd8-4d9c-879f-85d87b381be4,"headache, diarrhea, fatigue, cough",flu
+ea55832c-b859-43cb-be04-5a582de05c7c,diarrhea,flu
+0eff5734-5c95-4a3c-a04f-6b01d8bee15e,"diarrhea, cough, nausea, headache",food_poisoning
+b0bad8cf-53eb-4d00-bcdd-ad33acf086ab,"fatigue, diarrhea, nausea",flu
+74c91fca-447c-418c-8cce-1b4be122f944,"nausea, diarrhea, fatigue",flu
+88e83ecd-f25b-46dd-a93e-67e6790382c7,"nausea, cough, diarrhea",flu
+73e07063-1d81-43cc-9d17-479108317901,fatigue,common_cold
+770b0e31-5b97-4e2b-8a45-e8296a1eef1c,headache,flu
+d380134a-bea2-4152-a0ac-a5bbbfc602ca,"sore_throat, fever, cough",flu
+5b9ff4ec-ab84-4950-ab00-51d5d9ee8028,headache,food_poisoning
+a3fd2c41-8921-4a07-8a01-bdf543b1aa6b,"sore_throat, fever, nausea, headache",flu
+cfec665d-a86a-417c-91ce-08be83e3cc37,"cough, diarrhea",migraine
+2cea9f2a-1cec-46e0-ace7-52cf6185c0ff,"nausea, headache",common_cold
+a18bb503-d6e5-416a-bc5d-2681aed4703a,"cough, sore_throat",food_poisoning
+910ee2eb-0304-4b1a-9b6b-1001b6213c00,"nausea, headache",flu
+e37a54ab-d2b9-4f43-8a62-93f0feaac6f5,"sore_throat, nausea, fever",food_poisoning
+997c1c1f-d12a-4a7d-a653-00736136802f,fever,common_cold
+4396e37e-0ff5-4206-b65a-15d022866ac3,"diarrhea, cough, headache",food_poisoning
+0104cb59-4dfa-4705-8a6b-7db8a3c5abe7,"diarrhea, nausea, fever",migraine
+a3c69fc4-721f-47d6-b675-0e33b96b32c1,cough,flu
+4c32a608-0fe1-4566-97d2-a7fe909538ff,sore_throat,food_poisoning
+dad0d5cd-e016-43a8-9f73-3800ffc6c7ea,"cough, fever, fatigue, sore_throat",flu
+7fbfd738-1c60-41d0-9424-df8829fab998,headache,flu
+40dadd54-1f71-4e90-ae54-4ccaf35ea276,headache,migraine
+81727700-e2a1-4164-980f-979b2a57e4a7,fever,flu
+a97b1383-8419-4c54-bd42-4ed72484044c,"diarrhea, nausea, sore_throat",migraine
+08967e43-8ae0-42f3-8418-9689deb9232b,"cough, diarrhea, nausea",common_cold
+64c3146a-9723-49e7-8bc2-0d07e3e3e861,"cough, headache, nausea",food_poisoning
+93257bb0-20da-47e1-b6f7-6b6b4420118b,fatigue,food_poisoning
+ada06b23-8623-46f3-8de1-b1e415e20aa0,"sore_throat, fever",flu
+fdd7ca87-a720-4272-a93b-726956789227,"sore_throat, diarrhea",common_cold
+909066fc-9827-406c-8f9f-cca063f99ccf,"headache, cough, nausea, diarrhea",migraine
+055ed738-962c-4d14-bdfe-5968ae70dc69,"diarrhea, cough, sore_throat",flu
+13233d5a-2835-48f8-9c9b-26f883254b4c,"cough, fatigue, headache",food_poisoning
+b7e740f9-0906-427c-9de8-5f0980a8d4e8,"fever, sore_throat",food_poisoning
+83ceb1ba-7d82-4ba0-a886-21013ce841be,nausea,migraine
+16c01328-4d8e-4324-81b7-b99ef1cbafd5,"sore_throat, diarrhea",migraine
+63e01178-0d55-444a-a609-b775d9b40f53,"headache, nausea, cough, fever",flu
+e20226b9-dbf9-4996-a459-5216afe5e505,"sore_throat, fatigue",food_poisoning
+3295abbc-8e5b-45e7-bbd9-e9e1c9ecbd6d,"headache, diarrhea",food_poisoning
+c5fed782-8025-4359-af5d-f125915edbbd,"headache, cough, diarrhea",migraine
+2ff6cf43-db85-453d-a61e-48068569d3b6,"diarrhea, sore_throat, fatigue, nausea",flu
+258bbfc2-e637-47dc-a172-53171b4994df,"sore_throat, headache, diarrhea",food_poisoning
+21aa0b11-153b-4689-91bd-90016a775045,"cough, fatigue",common_cold
+a61e85a8-83d8-45c9-9814-cd8e3c64a5d3,"headache, fatigue, nausea, cough",food_poisoning
+0f220371-1ce6-40b3-b68b-eb78e17455df,sore_throat,common_cold
+d8f315ec-603d-47d8-81a9-079b42f0c1aa,"nausea, fatigue, cough, fever",food_poisoning
+8300b7cf-932d-4137-9ebc-40bc249f1b31,"sore_throat, nausea, diarrhea",common_cold
+55f24903-3996-415d-a124-82d18a96717f,"diarrhea, headache, nausea",food_poisoning
+470611e9-7885-4325-86c9-dad078559dc7,"diarrhea, headache, fatigue",flu
+502da5d8-ac03-4154-96c9-5c5dc12a70e9,"headache, cough, nausea",flu
+9c7fac74-5b40-4f46-9d97-8efb0b32ff8a,"fatigue, cough",migraine
+79b9bd47-b242-4176-9292-6a455fa58f07,"nausea, diarrhea, fatigue",common_cold
+84149136-1e00-4896-85e9-179593baf59b,"fever, sore_throat, headache, fatigue",flu
+ffe99395-f6b6-4e0c-b9e7-5ba53a7613b0,"diarrhea, cough",food_poisoning
+88e5bdd4-77ef-4009-b3ba-c83813b724a3,"diarrhea, fever, sore_throat, headache",migraine
+2c5fff4c-c8ca-4ac8-b6ae-41662c06a66a,"headache, nausea, diarrhea, fever",common_cold
+0d7ac673-83df-4226-9147-9351fda9d8d1,"sore_throat, fever, fatigue, diarrhea",migraine
+315db818-3d77-4db3-accb-f60b39b31f1c,"nausea, headache, fatigue",food_poisoning
+cb452fe8-5b05-4cc0-b87c-fb5ec471cdfd,"diarrhea, cough",migraine
+2b725a56-c13e-4a83-9a38-2c9b749d5ed9,"nausea, fatigue",food_poisoning
+3f4b33a2-25bf-4689-8b72-264c823bbd43,headache,common_cold
+bcf6f532-00bc-41e6-9ba6-e93dba75b30a,"fatigue, fever",migraine
+61e39aaf-0333-401f-91a1-a3d4586d095e,"nausea, cough",food_poisoning
+e8c9c6b2-6fba-44ef-b35a-ec9ce531cfa3,fever,migraine
+7f1f225e-431c-4a25-858b-b688ec2691e3,"sore_throat, fever",migraine
+072d3a1a-b4c9-4e36-b646-d1ee748e29fc,"diarrhea, fever, sore_throat, cough",migraine
+297bd798-4639-419b-8c3c-f837b60c328e,cough,flu
+08b700e5-3c88-40b7-b437-ca768ed33126,"cough, diarrhea, headache, sore_throat",food_poisoning
+5a927718-a992-4ff5-9980-6abe61e8ab99,"fatigue, cough, diarrhea",migraine
+9664c1a1-5c79-4684-905a-e7e901e0b362,"nausea, fatigue, headache, fever",food_poisoning
+7d48e971-d2bb-4f4a-b66e-b97f70c9dc3a,"fever, cough",common_cold
+465396b3-2f64-4c71-88f8-698c1a0399f2,"nausea, fatigue, fever",food_poisoning
+1e846ede-e2f4-4d9c-8765-2774179e0fc0,"headache, fatigue",flu
+5a24b768-6bfe-408e-8252-5104475f6cc1,"fatigue, nausea, sore_throat",food_poisoning
+b166e141-089b-434d-a9d3-59a4d3255ed8,fever,food_poisoning
+96d20596-49ab-4f71-a3c4-c8489dda296b,"diarrhea, cough, nausea, fatigue",food_poisoning
+3cf7243a-8e13-4ae6-a586-e266f062acb8,"fever, fatigue, cough",flu
+f76c5aa5-313b-4e66-acb2-757773299cdc,"fatigue, nausea, sore_throat, headache",common_cold
+3be1788f-c840-495e-baa9-042630776215,"sore_throat, fatigue, nausea",common_cold
+eee0d053-a5db-4318-82cf-43eef208caa8,"diarrhea, cough, fatigue",flu
+482d4079-3138-44e5-93f8-6af2531ce045,"headache, nausea",common_cold
+c482adba-3033-419c-bcc3-13fbeef2d75d,"sore_throat, diarrhea, fever, headache",migraine
+8b6a6dc9-8868-42c7-86cf-194130eb8290,"cough, diarrhea",migraine
+9a0a68cb-a523-446e-be09-41b1e6aa6c2a,"headache, fatigue",flu
+3122c766-164c-43fc-98ff-f67cc9f505ba,"diarrhea, fever, cough",migraine
+ddc1e889-79fa-4e43-b86d-5e4e0ed8c162,"fever, cough",common_cold
+77317b8a-01e9-40f1-ac52-54ae8eef96d5,"fatigue, diarrhea, sore_throat, nausea",food_poisoning
+f4347287-4a9d-4bc7-84f6-eef2f7942622,"fever, fatigue",food_poisoning
+772d312c-fef8-4ecb-be12-dac8e791dd01,"fever, diarrhea",migraine
+a7546def-aebd-4745-8275-98b187232a3f,fatigue,migraine
+24d7ae6e-f874-40cb-8b04-2f10be2503a9,"headache, cough, sore_throat",flu
+684cad83-6c69-4545-9935-798b02f764b2,"cough, headache, diarrhea, fatigue",migraine
+4e1a520e-e755-4ed2-9414-f48748b4b409,"diarrhea, sore_throat, nausea",food_poisoning
+eb15e1eb-530a-47b4-9a7c-dda797cc8e0a,"diarrhea, sore_throat, fever",flu
+93be3119-1c39-4a57-b57a-1cc8b97ba056,"diarrhea, nausea, headache",food_poisoning
+aa2ef2f4-d0ce-4820-805c-0dc2e4befdd2,"nausea, cough, fever, diarrhea",migraine
+c35ab0e4-eb01-4e2d-9280-e7d88c816346,"cough, fatigue, diarrhea, nausea",food_poisoning
+4256a0d6-71b1-44dc-9574-c4579e86e51a,"cough, sore_throat, diarrhea, fatigue",migraine
+49bff7b4-2e7c-480b-a645-236afb0e98c9,"fatigue, cough, headache, nausea",food_poisoning
+86bf8a3e-8866-4c4c-9107-53f4f0149941,"fatigue, fever, sore_throat",food_poisoning
+37a27d80-886b-4e3f-9e81-f492b5affbe3,"nausea, sore_throat, headache, diarrhea",food_poisoning
+64f40b5a-737f-403b-8b7c-1ede3c29059f,"cough, fatigue, fever",food_poisoning
+b3e71c46-bfa7-4658-aaa2-456a4419bf33,"sore_throat, cough",common_cold
+d2f28081-b2cb-4006-8a51-96d105038c45,fatigue,migraine
+23a79823-2dac-4812-9d7f-65834e846b96,"fever, cough",food_poisoning
+164f2163-c258-4df1-84ae-c29bf5f73b44,"fatigue, headache, sore_throat, nausea",migraine
+3eb8ed86-92e3-4c3a-a7f8-20ac3842c81a,fatigue,common_cold
+de09d206-dc66-486d-bc28-76bfd5057707,"sore_throat, fatigue",common_cold
+bc4b5efa-63ce-4a86-81e7-403269f97611,"diarrhea, fatigue, fever",food_poisoning
+c61e65df-08a8-4f11-97bb-3842ed5ae086,sore_throat,migraine
+0685a0a3-6442-4a89-acb6-0656f40cb4c3,"fever, fatigue",common_cold
+046d2663-5937-4b11-a2c5-ed506efaeb71,fatigue,food_poisoning
+0d5aa9ec-33bf-4a16-b35a-326622e384a6,"cough, diarrhea",common_cold
+4d0557bc-3eed-44db-8668-e7d3a2b2456d,"fatigue, diarrhea",migraine
+a4e719bb-63b0-40ba-b6e5-3eeb1f853199,fatigue,flu
+34719911-525a-482c-a935-7a3a977a9b67,"cough, diarrhea, fatigue, nausea",food_poisoning
+3182b58d-d9f4-435c-a204-f530a9508144,"cough, sore_throat, fatigue",common_cold
+c9012515-058c-4bf8-934d-2d1d842651ee,"nausea, diarrhea",flu
+bf4e26da-4784-4895-a9c7-fb7ade62bcce,"fatigue, fever, diarrhea",food_poisoning
+96a18005-f7f8-49e1-88b7-f34663903043,fever,common_cold
+cc9a4bf2-d3cd-4ace-a7ae-40ce1f25f3a0,"nausea, fatigue",food_poisoning
+2ff72bc5-f6cc-425d-9593-a7369f88d054,"diarrhea, cough, sore_throat",flu
+747026c1-449c-486b-8952-89845a2f104f,"fever, headache, sore_throat, fatigue",common_cold
+bda1298b-f143-4b37-9936-280abfa2d7ac,"headache, fever, fatigue, diarrhea",migraine
+959b0a21-cf28-400c-a41e-105754fc3beb,"cough, diarrhea, sore_throat, headache",flu
+8a78bf7a-45f7-4fcd-8861-f6ec6c3f26a3,fatigue,food_poisoning
+1d0130ef-859f-4b9d-ac11-fb450d813862,headache,common_cold
+093615e6-70ce-41ff-bcb7-e84e5bbdc256,"diarrhea, fever, fatigue",common_cold
+c2263691-0a60-442f-96d3-de3a846b7126,"cough, diarrhea, fatigue, nausea",common_cold
+ff523ef8-6919-412b-b883-93ce7de4b0be,"nausea, fever",common_cold
+71459a1a-5fdb-4335-9ce7-d27e19717c4d,"cough, diarrhea, sore_throat, nausea",common_cold
+2f125b6b-3a32-4a36-a2db-12852a9e15f6,"fever, cough, headache, nausea",migraine
+fa9679a3-cd75-40b4-9f7e-98d4b26eb95e,"sore_throat, diarrhea",common_cold
+6e4835f0-0f97-466c-84b4-ff7fc92d8087,"nausea, headache, fever",flu
+9124ba92-a506-4538-a105-de164e13e6c4,"sore_throat, fever, cough, nausea",flu
+de8efdab-dcab-46c1-b059-09248846c3c7,"fever, cough, nausea, diarrhea",common_cold
+06049aba-1a7a-4661-acb0-3d9176a63c3a,headache,common_cold
+da1a9d8d-3174-4433-afbb-2eef9ae13b27,"sore_throat, fatigue",flu
+bffcee56-a3e4-457f-af1b-2c7a036fc324,"fever, headache, cough",common_cold
+bfd3466a-6305-4e51-9bd5-3493cf19259f,"sore_throat, cough, nausea, fever",common_cold
+56efc717-db2d-4abf-b63f-5311035473e8,"nausea, fever, diarrhea",food_poisoning
+bcb8035d-8871-4bdb-9708-098da21d9f6e,sore_throat,food_poisoning
+d3972bc2-d871-4ebc-bd26-4f2715f5228a,"headache, cough, diarrhea",food_poisoning
+9caa5b38-d976-40c3-978b-a3fd66c022c4,"cough, fever, diarrhea",common_cold
+60b36096-ee65-49f4-a722-2cc1ace4e88b,"sore_throat, nausea, fever, cough",flu
+dbe20a1f-808e-48f5-afa5-01e1bace05a8,"cough, sore_throat, headache",migraine
+828c602c-ae07-42a8-bb49-f217232da2a7,"fever, fatigue, cough",common_cold
+537122ad-2f02-47df-b130-d93de6372a2e,"diarrhea, cough, fever",food_poisoning
+ea52fc8f-cf64-40c9-9e3f-c67339f32a86,"sore_throat, cough",common_cold
+b93b0c0a-66bc-42e1-9949-686885e83fcf,headache,flu
+1e41b00e-81b1-43d9-a769-ecdc383829fe,nausea,food_poisoning
+a0199ca4-a987-42a0-8457-5cbcb7aa0121,"diarrhea, headache, sore_throat, fatigue",common_cold
+1f45ba22-fbe5-4d87-b9f7-65bbe9051e6a,"cough, diarrhea, fever",common_cold
+a7554997-bbe0-493d-8ce1-91818981a97b,fever,migraine
+a3d2c4eb-5dfb-49db-a797-132aba25bc24,"headache, diarrhea",common_cold
+3e6a1515-a8b1-4749-b255-f7bdb7e03595,"fatigue, diarrhea, headache, sore_throat",migraine
+5ecb038b-1893-4d29-b24d-5968e2393197,"fatigue, sore_throat, headache",common_cold
+011e19d9-5ab2-4908-9527-1ba0fbedc589,"fatigue, cough, sore_throat",common_cold
+45399efd-3e39-4fd9-84cb-68e29aa407e3,"fatigue, headache, nausea",migraine
+14d692fa-c6b7-4c6e-b472-4d6df54b72ac,"nausea, headache, fever",common_cold
+b49f89d6-dbe1-417e-a78b-65faefe30c60,diarrhea,migraine
+2a2432bd-4029-424d-84ca-e45480ce1acc,"cough, headache, diarrhea",common_cold
+60e07126-512e-4582-b248-9412481dc5a2,"headache, fever, cough",common_cold
+ae06062e-9697-4991-956c-e624cbb82974,"sore_throat, headache, cough",migraine
+edfd5eda-13b1-45e4-a698-c34a1ca73656,"nausea, fever, fatigue",common_cold
+b8781269-6bc0-44c7-b33d-3b5de7d0db45,"diarrhea, fatigue",food_poisoning
+4589516d-5281-43ab-ad5e-9a5fb6ff1f35,"headache, fever",common_cold
+0ae39e70-f8cb-4471-aef7-414076b524e4,"headache, diarrhea, nausea, fever",migraine
+3454bc86-7b1a-4f4e-8b96-bc59400bc9e1,headache,food_poisoning
+2b006e6e-ffca-4b55-a7dc-5b6a699c7633,"fever, headache, diarrhea, cough",food_poisoning
+5d6ba0da-85a0-4ba6-910d-a6dc626e032f,"headache, fatigue, diarrhea, fever",flu
+d5e9a272-f853-43b6-8ef2-19316c27dd68,"diarrhea, sore_throat, fever, cough",common_cold
+7540e702-396e-475b-9963-8b9627db5422,"cough, headache, sore_throat",food_poisoning
+da75ccf7-fca1-4200-a6d5-ea69aaeb281a,"fever, cough, fatigue, headache",food_poisoning
+4b56236e-a75f-4858-9a15-c5f6040ec89a,"fever, nausea, headache",food_poisoning
+af028ee3-33fe-4e74-9739-ca7563594511,"headache, fever",flu
+2d01df5a-1ee5-4fe8-82c7-7d71d926f885,"nausea, fever",common_cold
+20a5b88f-810d-4c75-90c5-3968bb31d7a0,"fever, fatigue, cough, headache",common_cold
+c3facda3-6268-4693-956f-7f13a8fcde02,"sore_throat, headache, cough, nausea",migraine
+c2f3b70e-63cb-48c8-8fff-1755415ef202,"nausea, fever, cough, sore_throat",food_poisoning
+eb819f36-cfbb-4ca3-a69e-a1a0e7f1abf1,fever,flu
+f2cd385a-bf94-4258-9328-17e99f5b1481,"nausea, cough, sore_throat, diarrhea",common_cold
+3ff1347f-86d7-4e7c-9685-9cc68267a656,fever,flu
+81655245-2f9d-4fb4-ac25-c3d8e8877c8b,"sore_throat, headache",common_cold
+72cc965a-f831-4c0b-baa4-715155523679,fatigue,flu
+1a2c4714-cf09-43a3-bd96-b08f778d5bbe,"fatigue, diarrhea",common_cold
+42cb9950-46a1-40a1-980c-9255afa70864,sore_throat,food_poisoning
+b9a810f0-fd0b-4bfe-b73d-7dcac9d5f9f9,headache,common_cold
+8ce52954-1f7d-4f39-b10d-7cc3a3fc12ea,"headache, fever, fatigue, sore_throat",flu
+3aed6f7c-4df7-42fb-b3f4-1703c05b72ad,fever,common_cold
+aaa88ab0-5317-4243-9359-b6764cea75b1,"sore_throat, cough, fever, fatigue",food_poisoning
+b54448d1-db70-474b-a0bf-18fc038f9bc4,"fever, sore_throat",common_cold
+02c42e15-b4d3-46b5-b24c-0337048513e1,"fever, cough",migraine
+ca782d0a-b59b-4501-818c-6728b986dd5c,"fever, fatigue, sore_throat, cough",flu
+c29d2164-57fb-4c70-a8cd-0d25383a8544,"nausea, cough, headache",food_poisoning
+5aa4c086-b509-479c-92ea-249474643615,"diarrhea, cough",migraine
+1bc99d89-fced-497a-9475-ca2a456a5bbc,"diarrhea, headache",common_cold
+361ffe4b-e425-4dbc-b2b0-c3b098dbd884,nausea,food_poisoning
+b40aba59-bd2e-4b0c-b40d-94e75db7c895,diarrhea,migraine
+548fad5f-8d63-43a8-bad0-394b00e98818,"fever, cough",common_cold
+57762e2d-8e9f-43a9-abe5-1f22379db95c,headache,common_cold
+eb449d41-ea7e-47cd-86bb-cca1d5d2cfc5,"fever, cough, headache, sore_throat",flu
+f41d1f4f-8784-4208-99aa-040b4520b140,"fatigue, nausea, cough, fever",common_cold
+f5419b9a-9825-4030-a7dd-560bfcc582b8,"cough, sore_throat, headache, fever",migraine
+999e2a0c-7672-43f9-8bdc-f42333264489,"cough, sore_throat, headache",migraine
+0d1de798-f108-4670-a45d-cf64e3202c03,"diarrhea, fatigue, cough, nausea",migraine
+4eb1c1ab-b461-4760-82e4-dff58e5dd4e2,"fever, headache, sore_throat",migraine
+b84dc26b-f132-474f-8bf4-e372bd05083e,"headache, sore_throat",food_poisoning
+7b328878-57f0-40ce-bb57-b15655553702,"fatigue, sore_throat",migraine
+40931a98-4e55-44d8-b51e-5fa911a19040,"cough, diarrhea, nausea",migraine
+8fd49f2d-8a2c-447f-8a4e-8266e76629c2,"sore_throat, fatigue",migraine
+6668beea-f711-4f36-95cf-4662a3ecc85b,"nausea, headache, sore_throat",flu
+5064c9b8-dd76-4604-904d-a11737c18811,"fever, headache",common_cold
+48c70f73-561c-4a59-96c9-ae4832192ee8,"cough, sore_throat",food_poisoning
+f018147a-ed3d-4544-bf0a-c526a4312d05,"diarrhea, fatigue",common_cold
+72421981-0768-46ac-9f2d-2bfaaac05b2a,"diarrhea, fever, headache, nausea",food_poisoning
+529ea834-9efd-4248-a8bb-299eb7774be4,"diarrhea, sore_throat, fatigue, cough",migraine
+2e741ac9-5790-489b-af9f-c4c562df6e45,"nausea, cough",common_cold
+7fdc2ae5-ee87-4277-8744-073f6998bc97,sore_throat,food_poisoning
+6e796df1-3711-4fd3-8d69-a553de821acc,"sore_throat, diarrhea",flu
+f00502d1-90b8-4644-a56b-709fd6eeb0f8,nausea,common_cold
+1dc58b06-e6da-40f2-8743-fd13cccb7f68,"fatigue, headache, cough, nausea",flu
+f162a31b-ab91-4cb9-b056-8a21768afee5,"cough, nausea",migraine
+da96db94-63fd-4cdd-9145-cc99df3ee4f3,fatigue,flu
+87003067-3098-4879-8eb6-7f668e585284,cough,food_poisoning
+ac5f720e-8dcd-49b5-a842-4fd542f96774,"diarrhea, cough, headache, nausea",migraine
+7a164341-dfc4-408e-af2c-c39e1d7a2eb1,"cough, headache",food_poisoning
+e33bd27c-08b3-4fff-b02a-cd1076880b2d,diarrhea,common_cold
+2aa3ac77-afe4-458e-a601-0ef293fe492d,"fatigue, headache, fever, sore_throat",common_cold
+597785b5-ab52-4836-b0a0-091902e6d9bf,"sore_throat, cough",migraine
+24e337a6-e578-41b8-abab-5afe4a980c92,"fever, nausea, diarrhea",flu
+dff80a69-e468-4579-a35c-eb156174727b,"diarrhea, nausea, sore_throat",common_cold
+a4df2270-733d-48e6-bf9a-5c15f111c7bc,"diarrhea, headache, nausea, fatigue",common_cold
+ee9875ce-4e7d-4cf3-83d8-51b30058663b,"sore_throat, diarrhea, headache, fever",food_poisoning
+8e80a408-bf10-4999-8556-69447da29e77,headache,flu
+9b074b1c-42d0-40dc-be56-a52b7c8d9185,diarrhea,common_cold
+4712edf9-ffb9-4de5-93a2-750eae18112a,fatigue,food_poisoning
+39630793-d916-495e-b624-680c901d2aa5,"fatigue, fever, headache",flu
+ef052287-a829-48e3-8a3a-7754c8265c9a,"fever, nausea, cough",food_poisoning
+11835da0-e876-46fa-970a-585170c7168f,"headache, sore_throat, nausea, cough",migraine
+4a3b65c9-5190-4f26-a0d2-8690c7ba29de,"cough, nausea, headache, diarrhea",flu
+f8842e02-e632-40d9-8b61-ad818397ca77,"cough, sore_throat",migraine
+5099bec1-f1ed-4f47-b822-93a523ce110d,"diarrhea, fatigue, headache",common_cold
+3c042fbf-9dbb-49c9-a542-b1a0c1a48a18,"sore_throat, fever, fatigue",flu
+e7150ea2-acca-4f52-be62-9eded3854f42,"sore_throat, cough",migraine
+6fd41217-658c-48da-8741-2fc3c714ac53,fever,food_poisoning
+4558e41a-1a7a-4034-9315-1ae190c7a02e,"fever, cough",migraine
+6cf4da08-7592-42b6-95fb-6c5e9ba0722b,"diarrhea, fever, fatigue, headache",migraine
+e86d2167-0f7e-43d2-8f93-78309d6ae281,"fever, nausea, fatigue, sore_throat",food_poisoning
+b79919df-b8a2-41d2-b79b-3a5c78441829,"fatigue, fever, headache, cough",flu
+80f8d44a-44cd-4c95-95b9-17e517c407f1,"sore_throat, nausea, diarrhea, headache",food_poisoning
+ec75a9a2-4e65-43a5-89c5-2c7f8cc4578d,"fatigue, nausea",migraine
+0efd24c4-9772-4a23-8990-8b8c4c9636b7,fatigue,common_cold
+6bbcb7d8-2d12-48de-990b-b85b4c280971,"sore_throat, fatigue, fever",food_poisoning
+009cdc7d-7614-4864-8836-9a72c6fc7f1e,"nausea, sore_throat, fatigue",food_poisoning
+a021be27-314c-4fc9-8525-222d13335bb2,"cough, nausea",food_poisoning
+0231e174-5ac6-4ef9-b46a-4ff1c3e4b21f,"fever, nausea, fatigue, cough",food_poisoning
+bce92fd1-f85d-4514-8d0c-09760cdedde5,diarrhea,flu
+e21a3f4c-c6c5-46f7-b5b4-c5ee9c00a56e,"diarrhea, fever, fatigue, sore_throat",migraine
+85c88d20-c6d1-44a2-b5d1-988e46b3c8af,"diarrhea, headache",common_cold
+1d49e04e-44dd-4a51-9250-7a185bcfd561,"fever, cough, diarrhea, fatigue",common_cold
+0066a21e-5505-4752-8e82-afffd4902b61,"cough, headache, sore_throat, diarrhea",migraine
+3d8e48b5-cf79-4e15-853c-72f582e7a6e3,nausea,flu
+73256108-7123-48c4-a8f5-52ffcf587849,"nausea, diarrhea",flu
+62e1f64e-55c8-49fe-8b78-85a783c7519b,"fever, fatigue, cough",common_cold
+15bda5a7-c2a9-4832-a5c2-261fac315b59,sore_throat,common_cold
+fb5d9222-aeb1-4111-a167-5fd1c2932837,"cough, headache",food_poisoning
+e4721a33-8579-4773-b78f-8df056abdaa6,"fatigue, sore_throat, cough, diarrhea",flu
+3dbd3967-1484-4ec5-ac5a-d6d85d4baa52,"nausea, headache, fatigue",food_poisoning
+3bd7aba7-3edb-4d29-bc22-8be13a59f0f6,sore_throat,flu
+670a4ed7-9544-40d2-941c-063b0a68b100,fever,flu
+814e4041-fd19-4c7c-a241-810fca4288c6,headache,food_poisoning
+f09d7bad-a497-4ccb-86ba-b408daaeed4b,"nausea, diarrhea",food_poisoning
+b2014a59-e494-4e15-bdca-d6419ef12c22,"fever, nausea, headache",food_poisoning
+fda45142-f8de-4eee-acca-82be599c7100,"fatigue, diarrhea",migraine
+3fa735b8-cb85-4c65-981e-781e0960518a,"sore_throat, fever, nausea, headache",common_cold
+cff875af-0b9b-4de3-b577-085d0c35c0d6,"nausea, diarrhea, cough",migraine
+00f22b4d-05e5-46fc-b41a-e452ad4e873f,cough,migraine
+04775a31-c3da-442f-8b38-b36552e30cda,"diarrhea, headache, sore_throat, cough",common_cold
+0be826e5-31d2-4886-afc1-dfde1e168f52,"headache, fatigue",migraine
+43f49639-3380-47b2-9897-972dfd53427d,sore_throat,common_cold
+d5ec4af9-d3b8-47f2-bc5a-75589483ae91,cough,common_cold
+74b0d2df-9bbe-4de1-8cc4-c00adef57f51,"nausea, cough",flu
+8bb74435-4e65-4d48-b88f-a3f39200aaed,"headache, sore_throat",flu
+cd4758a0-44a4-4c97-a741-bfd1d5179551,"headache, sore_throat",food_poisoning
+bdcfba74-5c1c-4d07-ad43-41d128938221,"nausea, diarrhea, cough, headache",migraine
+b149498e-f9a5-4e64-b0e8-c9305532bb1e,fatigue,flu
+ef559f18-f69b-42af-8332-73be778f0167,"cough, headache, diarrhea, fatigue",common_cold
+ff01f917-d362-4b4c-8c55-8b8b818611af,"diarrhea, headache, fatigue",common_cold
+91e1e8f5-c6b1-455a-8e5e-6d3ad329e9d9,"fever, headache, nausea, diarrhea",migraine
+0a4c86e7-c1db-40fa-9540-004074a877cd,"sore_throat, headache",flu
+3c32d5a3-0ce2-44dd-b69d-9bcf37a966ab,"fever, fatigue, cough, diarrhea",flu
+030ff160-3b7b-425e-b0bf-5cb17f2bb36a,"sore_throat, fever, fatigue",flu
+d1e853ae-44ed-4843-b860-71a4be7051f3,sore_throat,flu
+5a29123c-2812-4e12-8e38-3e9f428376b2,"fever, nausea, headache",food_poisoning
+1f6059b8-b494-4065-a838-9ae62c0e0b23,nausea,food_poisoning
+a4b4b2a9-ec75-428b-a368-624ee5fac622,fever,common_cold
+569fe447-9339-4970-a0db-4657470d8080,"sore_throat, headache, fatigue, fever",common_cold
+27a150ac-b59c-4b17-abb7-6aa1832b8624,"diarrhea, sore_throat, nausea, fever",migraine
+e2928f8c-ff8d-4ac4-87bb-f41dc0859e0a,"fever, nausea, cough, fatigue",food_poisoning
+0da3dccf-c2b3-40cf-bcb0-19fd03dc078a,"diarrhea, nausea, cough, sore_throat",food_poisoning
+6d3e9fa6-8b07-4215-b87a-6b959a25c782,"fatigue, cough, headache, fever",migraine
+d63c7081-28eb-425f-8125-7d2483f6e1cc,cough,flu
+82a5da97-7afc-4c8b-9914-8b20e136ddd8,headache,migraine
+deb1f06d-9a39-4076-898b-6571a4f620aa,"headache, cough, diarrhea, nausea",flu
+28fbb6b7-b679-46c0-b3ec-7598c561e111,"fatigue, headache, nausea, cough",migraine
+206cd9f7-11e4-4e0f-9847-a5713cc15ec0,"headache, fatigue",migraine
+8c813800-b03b-4fe2-b033-f8c34828ee15,"nausea, fatigue, cough, fever",common_cold
+2a208e57-c191-40e2-bf45-6e9b75421a74,fever,flu
+4133ca21-2690-4b37-840c-8917b673b421,"fever, nausea",migraine
+3b80a07e-ca25-4938-967c-3817abbcfd18,"diarrhea, fatigue, nausea",migraine
+86319e3e-df4a-470f-8777-e3ce742e10e0,"sore_throat, cough, fatigue",common_cold
+1a6c2544-5ad0-46c7-979e-3abb74e8352a,"fatigue, headache",migraine
+e1c4a686-7149-44e5-8424-e7935dcc27e5,fever,food_poisoning
+e2ddb5ef-93ac-4a50-8f93-50456a581d02,"fatigue, headache, cough, sore_throat",food_poisoning
+d8fe10f0-fc27-47ad-a3cb-8cdce701fd3b,"nausea, cough",migraine
+1a4fc5be-880b-4068-8378-f78b401de2b8,"fever, cough",food_poisoning
+d78f8934-b8c3-4d7f-9827-b8c5465b8160,"sore_throat, nausea",food_poisoning
+554dfa44-9e41-4498-9d0a-bdf50e2b1edc,"headache, diarrhea, fever",common_cold
+19417df9-eff9-4676-aa3a-e916e9e745bc,"headache, diarrhea, fever, nausea",migraine
+d6acec90-c675-4287-81c3-047833b21858,"nausea, fatigue, headache",food_poisoning
+ffb6f67d-d11d-4c03-9dd0-bc6af90d8b3a,"diarrhea, fatigue",migraine
+5ad3e2c3-1ea7-43ef-b62e-8b1f9f5aed74,"fatigue, sore_throat, fever",food_poisoning
+67ebb78e-ca29-4552-b991-dc71a3a3d75e,"diarrhea, fever, nausea",flu
+870d6aa0-2983-400f-b3fb-575ee1dbea3b,"fatigue, headache, nausea",common_cold
+55465ea2-59c3-4ee6-9f17-eafbb51e11ce,"nausea, fatigue, headache, diarrhea",migraine
+99449bf2-7dfa-41ec-a250-26ec86e169de,fatigue,food_poisoning
+5c9fa3d2-0641-4848-be08-89191dc6284b,"fatigue, sore_throat, fever, headache",food_poisoning
+8b6b506a-ba90-471f-9b04-c17bb8b4e59c,fatigue,common_cold
+83f7dea6-1cd5-450a-9242-caa3efd53abd,"nausea, fatigue",common_cold
+954bbd16-03d9-477b-a74d-aaad553b8c4d,"diarrhea, headache",migraine
+ec703ea8-fa4a-4fa1-9b5e-7ac25197dbbd,"sore_throat, diarrhea, cough, nausea",common_cold
+9b0195e4-bc5b-4bca-ac56-a0b033487162,headache,migraine
+b51dd675-fc64-4dd2-a5d5-30a254943780,"fatigue, cough, nausea, sore_throat",common_cold
+73e140f0-b93f-4b99-9a54-ab1d333768bd,"sore_throat, headache, fatigue",food_poisoning
+7ad77e24-85d2-4501-994c-d35e2c3f2071,"sore_throat, headache, cough, diarrhea",food_poisoning
+0023914a-32e2-4a85-a8a4-983d9c7d8ef2,"nausea, fatigue, cough",food_poisoning
+27ee85a4-8c2d-4ab2-b1c2-e1f5c9c43761,"nausea, fatigue, headache",food_poisoning
+16c913c2-2576-4bde-a961-0ee0df63c8e5,headache,food_poisoning
+c338c675-4680-4714-a783-814ec85fcc4d,fatigue,flu
+8c4bc021-3bdb-451a-9a83-05fba4fbef12,"nausea, fatigue, cough, diarrhea",food_poisoning
+83e1787b-a024-46f7-958f-d5e4665880e2,"fatigue, nausea, sore_throat",migraine
+7a44e14c-4be7-4ec6-b0fb-63b34c281e20,"cough, fatigue, headache, diarrhea",food_poisoning
+c6f1c03b-77e3-43e9-b83a-4c1422e8a9bb,"fever, diarrhea, sore_throat",food_poisoning
+88c86b28-8cab-4ed8-83e9-2749600b0679,"fatigue, fever, sore_throat",food_poisoning
+10333fd3-6f99-495b-9a48-d045e2471d39,"fatigue, sore_throat, headache",food_poisoning
+d39cfa53-4dd9-4b76-8654-6ae901e2bf85,"fatigue, headache",flu
+904c237b-edce-4dc7-beb1-0762f8f3bf85,"nausea, fever",migraine
+a7da44c1-4dfc-42cb-a939-e02b791f23b4,diarrhea,migraine
+b2109287-3b93-40c4-a245-b1e25aaec819,nausea,migraine
+c1ba02fa-09c6-4d84-a344-81a7c9dc5689,fatigue,food_poisoning
+edcff2e9-5985-4549-b0f9-50c7a813fbcb,fever,flu
+0ec6fa7d-5065-4e4d-9df2-a95c92faf344,"nausea, sore_throat, cough, headache",migraine
+0650032b-e5ad-4f40-9572-4bd0f69080f7,"cough, sore_throat",flu
+963d4ff0-9df1-4cb8-bcc0-d4246aced920,fever,migraine
+c30f4875-b2d6-4186-a781-63e8492df971,"nausea, cough, sore_throat, diarrhea",migraine
+f2a34acd-1508-46db-a413-e5a488baccb9,"nausea, fever, headache, cough",migraine
+f19d8d68-1715-4daa-8962-a812ab068357,"fever, sore_throat",flu
+12965b10-5538-4083-a2dd-01d78aa89b18,"cough, nausea, fatigue, fever",migraine
+1ea00354-69cc-4c98-9a52-14e4337b7e04,"headache, nausea",common_cold
+ca0e21b1-c3b8-4425-aec1-8abfa5fff270,"fatigue, nausea, sore_throat",flu
+636a4e69-d862-4676-8f74-69f5d4c18dda,"diarrhea, cough, fatigue, headache",food_poisoning
+f88954e4-e355-49d6-a05f-0a7577ad722e,"headache, cough",flu
+b1df7483-fb74-450d-9a9f-a190df7b60f0,"diarrhea, fever, nausea, cough",common_cold
+b8b2eb1c-1d12-4f77-9310-4478e952499a,fatigue,flu
+911c9137-1ad6-4a34-9e8a-b5c219bc829b,"sore_throat, fatigue, diarrhea, headache",food_poisoning
+27428677-fd58-4a1e-981c-c7a7da311eeb,"fever, headache, sore_throat, cough",common_cold
+bb516cc6-c407-456e-9b46-65d05f1fc787,"fever, sore_throat",common_cold
+2ca5ab8e-5e19-4ea4-8d6d-bf6acaef8663,"headache, fever, diarrhea, cough",migraine
+70535b8f-44cd-4ccd-9291-0eb8223b53e6,headache,common_cold
+c25c6b4e-a150-4ad4-8885-0d53f8228ce0,"diarrhea, fever, fatigue, headache",flu
+703647aa-2968-41ca-94e2-a0f12813ebfd,"cough, headache, fatigue",common_cold
+e49e4c61-d5e8-4c75-a0ab-e2fcd5bdb1d0,"headache, fever, diarrhea, nausea",food_poisoning
+a093f7ea-ceef-4875-8194-117016da88bb,"cough, headache, fatigue, fever",flu
+b976a9f4-29b2-4dfb-bb77-c4f991fca044,"nausea, cough, headache, sore_throat",food_poisoning
+3d6842fe-a130-45ac-a113-9ace4c867ad2,"diarrhea, headache, sore_throat",food_poisoning
+1d01a159-f575-4d9c-a2ed-fc866b341cf7,"headache, sore_throat, cough",flu
+ce3653de-3aae-4922-9483-3b9811b8cec7,"nausea, cough, sore_throat",food_poisoning
+0078ee22-466a-4222-af47-78b222c938ff,"sore_throat, nausea",food_poisoning
+f44c6be5-cb36-4c62-888e-89bd9111a3fd,cough,common_cold
+f5c72459-100a-4b65-a3af-6595cfa73a10,"headache, diarrhea, nausea, fever",migraine
+df48466c-cc33-45ea-9d89-84a761fce534,diarrhea,food_poisoning
+2cc449d0-42ee-44aa-807c-aef6d4aea97f,fever,common_cold
+1a40be8a-e31f-4cbd-bed2-2e4661b93a1b,"headache, fever, cough",flu
+1b34e07f-1a03-44da-a54b-873809444bf3,"diarrhea, nausea, cough, sore_throat",common_cold
+b109fa59-4b40-4194-bff9-77b437d779de,"cough, headache",food_poisoning
+efd29e64-e3e6-4924-8fbd-216a7b0245f9,"sore_throat, nausea, fatigue",food_poisoning
+4b195ce2-51d8-4739-8810-76310da38177,headache,common_cold
+7a65797f-7e53-4b0a-b973-a072026f11b7,"diarrhea, cough",food_poisoning
+b32ffe68-0ac0-4be9-be7e-35f5ebbbe0a9,"diarrhea, fever, fatigue, sore_throat",common_cold
+5d2a9de9-7bda-4b59-9c66-bef5f56ff98d,"headache, diarrhea, sore_throat",migraine
+6508066a-e742-433f-aff8-7b55b6370d93,"diarrhea, fever, cough",common_cold
+0001063c-43f9-4331-8dc1-bb8924e3500f,"fever, headache, fatigue, nausea",common_cold
+59bef5bf-f078-4979-ad8f-5e13d68fc435,diarrhea,migraine
+5c6095b3-c0b0-4419-8331-284165a46fc8,"headache, fatigue, fever, nausea",common_cold
+50933f2f-b5aa-47fa-97a6-98d95185b799,"headache, cough, fatigue, fever",flu
+ebf62d18-687b-438f-b9bd-48b342ee230e,"fever, cough, headache, diarrhea",migraine
+64df2475-0bce-4458-ad55-7953df9a5218,"fever, diarrhea, fatigue",migraine
+2ac466e3-c071-4165-8c70-443565820338,"diarrhea, fever",flu
+5dcf962a-02a4-47e2-be7e-d87a3d5bddea,"sore_throat, diarrhea, cough",common_cold
+b3d619c5-eabd-4c12-9f81-96888d7d852f,"fever, diarrhea, fatigue",migraine
+7cd9dd51-afc7-4bd3-9271-cdf2c78078d3,"sore_throat, nausea, cough, diarrhea",food_poisoning
+064284cc-ed31-4e7c-b36c-95b3e5569cd9,"fatigue, nausea, cough",migraine
+71057e9c-00c3-435e-8ace-b1da8b3bbd22,"cough, headache, nausea, fatigue",flu
+2ba6ed4f-1d75-408b-a2d8-874498d7e611,"nausea, diarrhea",migraine
+7ad3144f-4f9d-4dc5-bb43-7c19d797d594,nausea,food_poisoning
+d19347c4-48c6-4e41-8d31-1f761ff12f0a,"sore_throat, fatigue",flu
+4f3b6101-cf52-4096-907e-f3bd32ed134a,"diarrhea, cough, fatigue, sore_throat",migraine
+bcb0c92b-d8e5-40de-aecb-e2a5ca237285,"cough, diarrhea, fatigue",migraine
+c1dca234-d16f-46cc-91b7-e63d53c1419c,"cough, diarrhea, fever, fatigue",flu
+e71fdd22-63ff-45a4-b79f-997cb09e2b54,"headache, fever",flu
+678e8a2a-3dcb-4293-b31b-2a4f33532772,"nausea, fatigue",flu
+2e8c6b94-998c-4760-8417-201230d382c0,"diarrhea, sore_throat, headache",common_cold
+2e6ffaba-1b28-4d53-a5e3-0ae9e08aecd8,"fatigue, nausea, headache, cough",common_cold
+9e1b1275-81ff-475c-af91-84e18f7d305d,"cough, fever",food_poisoning
+6f58ec45-c514-4c59-ac9a-24a9d7618ac5,cough,common_cold
+80acc546-c3a6-47d2-b3c9-162a77c6c48e,"diarrhea, cough, headache",migraine
+b5c9977c-93c4-4700-98d9-f27def77f93d,"headache, nausea",flu
+607617d7-6ed7-4e24-9394-9aae9f11ddf8,nausea,migraine
+44d77367-5db6-4642-b2ca-b3be36d86e7c,"sore_throat, fever, headache, cough",migraine
+91d00f99-af7f-4c99-a53c-d090a01790ce,"fatigue, diarrhea, sore_throat",migraine
+938cfdd7-1ee3-47a5-a050-706b23b5eb6f,"fatigue, sore_throat, cough, headache",food_poisoning
+7d4044f8-6abd-44e5-a51e-109178917780,"nausea, sore_throat",flu
+0c184dc6-6eaa-4c5a-a6d5-b6ab96b0cd8c,"headache, fever",migraine
+d4f166d4-698f-4375-b076-1480ed37aa62,"nausea, fatigue, diarrhea, headache",flu
+cc535531-383d-4dc8-a216-f06148f4e438,"headache, fever, sore_throat, cough",flu
+4cece978-8fc4-4fe9-9db8-2dd814926ba6,"sore_throat, cough",flu
+6bc6eef8-b1b8-4677-aca0-c4b5b7e28385,fatigue,common_cold
+022db132-5087-498a-ad7d-b6f15ff9742d,"cough, fever, diarrhea",common_cold
+b1ca3e45-baaa-4cc0-8086-beb6e53f2689,"diarrhea, fever, sore_throat",food_poisoning
+e920e31a-0503-415b-8893-e88fc3fdd165,"sore_throat, headache, fatigue",migraine
+20c8d4ec-a233-464d-9063-f5cd0ef6dad5,fever,flu
+ac306200-5290-4e68-9d76-947f92b7a9ee,cough,migraine
+650b475a-5671-4f34-b621-f28219c82eac,"fatigue, cough, diarrhea",food_poisoning
+4992a6cb-ed96-4fa0-b848-4afe845f17ba,"cough, fatigue",common_cold
+3da58b4d-9cd1-4ec7-967f-18dee54944ef,"sore_throat, nausea, cough, fatigue",migraine
+8aff7797-58af-42bf-832f-5a042a652983,"fatigue, headache, fever, sore_throat",common_cold
+af329eb8-9dc4-4451-82eb-d35317515c0d,"sore_throat, fatigue, diarrhea, fever",migraine
+139de6c5-f6d1-427a-9c98-b08e5d8f91fb,"headache, cough",common_cold
+409fe758-112c-448f-a9f2-9545e4ad152a,"cough, nausea",migraine
+1cbeabcf-885d-43b5-ac02-5425d54ad7e0,"diarrhea, headache, cough, sore_throat",common_cold
+a037cac6-b422-40f9-8698-8bb58450027e,"cough, diarrhea, sore_throat, fever",migraine
+1076f066-d880-47d5-9504-820ad062931e,cough,flu
+c10e0e72-e6e6-4a46-b839-701712f05b00,"headache, diarrhea",common_cold
+189d9d42-fecc-473c-b351-701833fa4c4d,"nausea, diarrhea, cough",food_poisoning
+aa03093d-668e-4943-bbe1-50d40de79b41,"headache, nausea, fever, cough",migraine
+5db1165a-97bb-4d3e-b9ac-96745e45b63a,"diarrhea, nausea, sore_throat",migraine
+1438db40-f977-4520-a39d-9ab38d006998,"sore_throat, fatigue, diarrhea",flu
+01078ac8-4b57-4dec-97ca-1c1469d51a58,"diarrhea, headache, sore_throat",flu
+291a4c59-5cd0-47e2-8ab1-89df37411abe,"cough, sore_throat, fatigue",common_cold
+f22b423b-5c48-4e50-b884-34cd6b852d59,"headache, nausea, fever",flu
+c5cfb825-1aca-4329-8a67-2d4572a2a118,headache,migraine
+3287523c-b0da-4bff-9958-90c46daa6359,diarrhea,food_poisoning
+75414710-59a6-4435-8580-0bae12cd3856,"nausea, fever, headache, diarrhea",migraine
+cabad723-b28b-490b-8034-519e4a17e9a5,"diarrhea, nausea, fatigue, sore_throat",common_cold
+c2a09cea-b22d-434d-b069-73792b71cbcc,"cough, headache, nausea",food_poisoning
+c298d3da-005a-4215-9d9a-05959602e54d,"fever, diarrhea",migraine
+e7d77c1e-ddc1-4874-841c-8f990edb1592,"cough, nausea, fatigue",flu
+7e508d92-a19e-4907-90be-8c36e7e80762,"cough, sore_throat, diarrhea, fever",migraine
+bfaff10c-a6f8-4934-abcd-3e9091d5a2ef,"fever, nausea, sore_throat",food_poisoning
+b1473411-764d-4cee-a854-c34e8c58827f,"fatigue, cough, fever",flu
+b3db187f-7751-4476-bc2e-50f20df305b6,cough,food_poisoning
+618a6b5b-94e4-4e34-9b08-705b1c5f3127,"nausea, fever",flu
+0452813e-0c46-4068-81cd-69bc56f1d221,"cough, fever, diarrhea",flu
+7395dd76-c566-4439-8774-7e15ff13d50a,"fatigue, sore_throat, cough",migraine
+af424887-808a-4253-8fd1-189a78757b49,"sore_throat, cough, headache",food_poisoning
+09fc8e70-0643-411c-b6c4-e3f781246994,"sore_throat, diarrhea, fatigue, nausea",food_poisoning
+54212ea6-9f51-4068-a958-0f6a99c04f22,"headache, sore_throat, diarrhea, cough",food_poisoning
+9548966d-b442-4fbf-86ff-58a707cc809d,"nausea, diarrhea",food_poisoning
+7593af54-5421-4784-a66f-e10394d6bea6,"fatigue, diarrhea, nausea, sore_throat",food_poisoning
